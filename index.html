@@ -156,7 +156,7 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
     <div class="sec-head">
       <div>
         <h2>Google Meu Negócio · avaliações</h2>
-        <div class="muted" style="font-size:13px">Nota média e total de avaliações. "Novas" = diferença no total entre as coletas diárias.</div>
+        <div class="muted" style="font-size:13px">Nota média e total de avaliações. "Novas" conta as avaliações publicadas nas últimas 24 horas, 7 dias e 30 dias até a última coleta.</div>
       </div>
     </div>
     <div class="panel scroll"><table id="gg-tab"></table></div>
@@ -217,7 +217,11 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
       var g = D.gg[u.id] || {}; var h = g.historico || [];
       function totalEm(dia) { for (var i = h.length - 1; i >= 0; i--) if (h[i].data <= dia) return h[i]; return null; }
       var atual = h.length ? h[h.length - 1] : null;
-      function novas(n) { var a = totalEm(addDias(D.hoje, -n)); return atual && a ? atual.total - a.total : null; }
+      var avs = g.avaliacoes || null, ref = new Date(D.meta.atualizado_em).getTime();
+      function novas(n) {
+        if (avs) return avs.filter(function (r) { return ref - new Date(r.ts).getTime() <= n * 864e5; }).length;
+        var a = totalEm(addDias(D.hoje, -n)); return atual && a ? atual.total - a.total : null;
+      }
       var ref30 = totalEm(addDias(D.hoje, -30)) || h[0];
       return {
         u: u, nomeIg: u.nome_instagram || u.nome, ig: ig, porDia: porDia, p1: soma(1), p7: soma(7), p30: soma(30), ativos: ativos, seq: seq, hojeAte: hojeAte,

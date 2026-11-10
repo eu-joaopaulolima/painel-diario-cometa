@@ -227,7 +227,9 @@ def coletar_google_apify(agora, base, cache):
     for u in CONFIG["unidades"]:
         reg = base.get(u["id"], {"historico": []})
         pid = u.get("google_place_id") or cache.get(u["id"], {}).get("place_id")
-        entrada = {"language": "pt-BR", "maxReviews": 0, "maxImages": 0,
+        desde = (agora - timedelta(days=31)).date().isoformat()
+        entrada = {"language": "pt-BR", "maxReviews": 150, "reviewsSort": "newest",
+                   "reviewsStartDate": desde, "maxImages": 0,
                    "scrapeContacts": False, "skipClosedPlaces": False}
         if pid:
             entrada["startUrls"] = [{"url": f"https://www.google.com/maps/search/?api=1&query=Google&query_place_id={pid}"}]
@@ -251,7 +253,19 @@ def coletar_google_apify(agora, base, cache):
             cache[u["id"]] = {"place_id": novo_pid, "consulta": u["google_busca"], "nome": d.get("title", "")}
         hist = [h for h in reg.get("historico", []) if h["data"] != hoje]
         hist.append({"data": hoje, "nota": d.get("totalScore"), "total": d.get("reviewsCount") or 0})
+        # datas das avaliações recentes (guarda e acumula, sem duplicar)
+        recentes = {r["id"]: r for r in reg.get("avaliacoes", [])}
+        for r in d.get("reviews") or []:
+            ts = r.get("publishedAtDate")
+            if not ts:
+                continue
+            rid = r.get("reviewId") or f"{ts}-{r.get('name', '')}"
+            recentes[rid] = {"id": rid, "ts": ts, "estrelas": r.get("stars")}
+        corte = (agora - timedelta(days=DIAS_GUARDADOS)).isoformat()
+        avals = sorted((r for r in recentes.values() if r["ts"] >= corte[:10]), key=lambda r: r["ts"], reverse=True)
+        print(f"   {len(d.get('reviews') or [])} avaliações recentes lidas para {u['id']}")
         base[u["id"]] = {
+            "avaliacoes": avals,
             "place_id": novo_pid,
             "nome_google": d.get("title", ""),
             "endereco": d.get("address", ""),
