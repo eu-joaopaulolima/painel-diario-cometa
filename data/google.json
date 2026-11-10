@@ -76,18 +76,5 @@
     "total": 248
    }
   ]
- },
- "clicar-veiculos": {
-  "place_id": "ChIJJbXSSxJ3GZURSdIQlmKzReg",
-  "nome_google": "ClikCar RS",
-  "endereco": "Av. Carneiro da Fontoura, 871 - Jardim São Pedro, Porto Alegre - RS, 91040-170, Brasil",
-  "link_maps": "https://www.google.com/maps/search/?api=1&query=ClikCar%20RS&query_place_id=ChIJJbXSSxJ3GZURSdIQlmKzReg",
-  "historico": [
-   {
-    "data": "2026-11-10",
-    "nota": 4.2,
-    "total": 411
-   }
-  ]
  }
 }

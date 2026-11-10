@@ -80,7 +80,9 @@ def coletar_instagram(agora):
     limite = (agora - timedelta(days=DIAS_GUARDADOS)).isoformat()
     ok = False
     for u in CONFIG["unidades"]:
-        user = u["instagram"]
+        user = u.get("instagram")
+        if not user:
+            continue
         reg = base.get(user, {"posts": []})
         campos = (
             f"business_discovery.username({user})"
@@ -310,7 +312,7 @@ def main():
         "amostra": False,
         "instagram_ok": ok_ig,
         "google_ok": ok_gg,
-        "unidades": [{k: u[k] for k in ("id", "nome", "cidade", "marca", "instagram")}
+        "unidades": [{k: u.get(k, "") for k in ("id", "nome", "nome_instagram", "cidade", "marca", "instagram")}
                      for u in CONFIG["unidades"]],
     })
     gravar_json("meta.json", meta)

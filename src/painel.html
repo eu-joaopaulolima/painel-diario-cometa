@@ -186,7 +186,7 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
     D.hoje = diaDe(D.meta.atualizado_em);
     D.ontem = addDias(D.hoje, -1);
     D.dias30 = []; for (var i = 29; i >= 0; i--) D.dias30.push(addDias(D.ontem, -i));
-    preparar(); render();
+    preparar(); D.igUnis = D.unis.filter(function (x) { return x.u.instagram; }); render();
   });
 
   function vazio() {
@@ -211,7 +211,7 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
       function novas(n) { var a = totalEm(addDias(D.hoje, -n)); return atual && a ? atual.total - a.total : null; }
       var ref30 = totalEm(addDias(D.hoje, -30)) || h[0];
       return {
-        u: u, ig: ig, porDia: porDia, p1: soma(1), p7: soma(7), p30: soma(30), ativos: ativos, seq: seq, hojeAte: hojeAte,
+        u: u, nomeIg: u.nome_instagram || u.nome, ig: ig, porDia: porDia, p1: soma(1), p7: soma(7), p30: soma(30), ativos: ativos, seq: seq, hojeAte: hojeAte,
         g: g, gAtual: atual, n1: novas(1), n7: novas(7), n30: novas(30),
         dNota: atual && ref30 && atual.nota != null && ref30.nota != null ? +(atual.nota - ref30.nota).toFixed(1) : null,
         serie: h.slice(-30).map(function (x) { return x.total; })
@@ -234,16 +234,16 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
   }
 
   function resumo() {
-    var tot = D.unis.reduce(function (s, x) { return s + x.p1; }, 0);
-    var top = D.unis.slice().sort(function (a, b) { return b.p1 - a.p1; })[0];
-    var sem = D.unis.filter(function (x) { return !x.p1; });
-    var todoDia = D.unis.filter(function (x) { return x.ativos === 30; }).length;
+    var tot = D.igUnis.reduce(function (s, x) { return s + x.p1; }, 0);
+    var top = D.igUnis.slice().sort(function (a, b) { return b.p1 - a.p1; })[0];
+    var sem = D.igUnis.filter(function (x) { return !x.p1; });
+    var todoDia = D.igUnis.filter(function (x) { return x.ativos === 30; }).length;
     var nov = D.unis.reduce(function (s, x) { return s + (x.n1 || 0); }, 0);
     var ontemTxt = fmtDia(D.ontem, { weekday: "long", day: "2-digit", month: "2-digit" });
     $("resumo").innerHTML =
       bloco("Posts ontem", fmtN(tot), ontemTxt) +
-      bloco("Mais postou ontem", top && top.p1 ? esc(top.u.nome.replace("Hyundai Cometa ", "Hyundai ")) : "—", top && top.p1 ? top.p1 + (top.p1 > 1 ? " posts" : " post") : "ninguém postou", true) +
-      bloco("Sem post ontem", sem.length + " de " + D.unis.length, sem.length ? sem.map(function (x) { return esc(x.u.nome.replace("Hyundai Cometa ", "")); }).join(", ") : "todos postaram") +
+      bloco("Mais postou ontem", top && top.p1 ? esc(top.nomeIg.replace("Hyundai Cometa ", "Hyundai ")) : "—", top && top.p1 ? top.p1 + (top.p1 > 1 ? " posts" : " post") : "ninguém postou", true) +
+      bloco("Sem post ontem", sem.length + " de " + D.igUnis.length, sem.length ? sem.map(function (x) { return esc(x.nomeIg.replace("Hyundai Cometa ", "")); }).join(", ") : "todos postaram") +
       bloco("Avaliações novas no Google", (nov > 0 ? "+" : "") + fmtN(nov), "nas últimas 24h · " + todoDia + " perfil(is) postaram todos os dias em 30 dias");
   }
   function bloco(t, v, s, menor) {
@@ -252,14 +252,14 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
 
   function ranking() {
     var p = state.periodo, k = "p" + p;
-    var arr = D.unis.slice().sort(function (a, b) { return b[k] - a[k] || b.p30 - a.p30; });
+    var arr = D.igUnis.slice().sort(function (a, b) { return b[k] - a[k] || b.p30 - a.p30; });
     var max = Math.max(1, arr[0] ? arr[0][k] : 1);
     var nomeP = p === 1 ? "Ontem" : p + " dias";
     var html = '<thead><tr><th></th><th>Unidade</th><th>' + nomeP + '</th><th class="n">7 dias</th><th class="n">30 dias</th><th class="n">Dias c/ post (30)</th><th>Sequência</th><th class="n">Seguidores</th></tr></thead><tbody>';
     arr.forEach(function (x, i) {
       var v = x[k], w = Math.round(v / max * 100);
       var seqPill = x.seq >= 7 ? '<span class="pill good">' + x.seq + ' dias seguidos</span>' : x.seq > 0 ? '<span class="pill warn">' + x.seq + (x.seq > 1 ? " dias" : " dia") + '</span>' : '<span class="pill bad">parou</span>';
-      html += '<tr><td class="rank">' + (i + 1) + '</td><td><div class="uni"><b>' + esc(x.u.nome) + '</b><span><a href="https://www.instagram.com/' + esc(x.u.instagram) + '/" target="_blank" rel="noopener">@' + esc(x.u.instagram) + "</a>" + (x.u.cidade ? " · " + esc(x.u.cidade) : "") + '</span></div></td>' +
+      html += '<tr><td class="rank">' + (i + 1) + '</td><td><div class="uni"><b>' + esc(x.nomeIg) + '</b><span><a href="https://www.instagram.com/' + esc(x.u.instagram) + '/" target="_blank" rel="noopener">@' + esc(x.u.instagram) + "</a>" + (x.u.cidade ? " · " + esc(x.u.cidade) : "") + '</span></div></td>' +
         '<td class="barcell"><div class="bar"><i class="' + (v ? "" : "zero") + '" style="width:' + (v ? w : 2) + '%"></i><span class="num">' + v + "</span></div></td>" +
         '<td class="n">' + x.p7 + '</td><td class="n">' + x.p30 + '</td><td class="n">' + x.ativos + "/30</td><td>" + seqPill + '</td><td class="n">' + fmtN(x.ig.seguidores) + "</td></tr>";
     });
@@ -275,11 +275,11 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
       h += '<span class="col">' + (i % 3 === 2 || i === 29 ? dd : (wd === 1 ? "·" : "")) + "</span>";
     });
     h += '<span class="col" style="text-align:right">total</span>';
-    D.unis.slice().sort(function (a, b) { return b.ativos - a.ativos || b.p30 - a.p30; }).forEach(function (x) {
-      h += '<span class="lbl" title="' + esc(x.u.nome) + '">' + esc(x.u.nome.replace("Hyundai Cometa ", "Hyundai ")) + "</span>";
+    D.igUnis.slice().sort(function (a, b) { return b.ativos - a.ativos || b.p30 - a.p30; }).forEach(function (x) {
+      h += '<span class="lbl" title="' + esc(x.nomeIg) + '">' + esc(x.nomeIg.replace("Hyundai Cometa ", "Hyundai ")) + "</span>";
       D.dias30.forEach(function (d) {
         var n = x.porDia[d] || 0, c = n >= 3 ? "h3" : n === 2 ? "h2" : n === 1 ? "h1" : "";
-        h += '<span class="d ' + c + '" title="' + esc(x.u.nome) + " · " + fmtDia(d, { weekday: "short", day: "2-digit", month: "2-digit" }) + ": " + n + (n === 1 ? " post" : " posts") + '">' + (n || "") + "</span>";
+        h += '<span class="d ' + c + '" title="' + esc(x.nomeIg) + " · " + fmtDia(d, { weekday: "short", day: "2-digit", month: "2-digit" }) + ": " + n + (n === 1 ? " post" : " posts") + '">' + (n || "") + "</span>";
       });
       h += '<span class="tot">' + x.p30 + "</span>";
     });

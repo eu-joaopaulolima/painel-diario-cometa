@@ -64,12 +64,23 @@
     },
     {
       "id": "clicar-veiculos",
-      "nome": "Clicar Veículos",
-      "cidade": "",
+      "nome": "Clicar Veículos Tangará da Serra",
+      "cidade": "Tangará da Serra/MT",
       "marca": "Clicar",
       "instagram": "clicar.veiculos",
-      "google_link": "https://share.google/Tcu2SEwNl9FIBoxye",
-      "google_busca": "Clicar Veículos",
+      "google_link": "https://share.google/sqzqUBNLj1uHSQV3L",
+      "google_busca": "Clicar Veículos Tangará da Serra MT",
+      "google_place_id": "",
+      "nome_instagram": "Clicar Veículos"
+    },
+    {
+      "id": "clicar-caceres",
+      "nome": "Clicar Veículos Cáceres",
+      "cidade": "Cáceres/MT",
+      "marca": "Clicar",
+      "instagram": "",
+      "google_link": "https://share.google/cDKqpFWqd7NQ7G8Ns",
+      "google_busca": "Clicar Veículos Cáceres MT",
       "google_place_id": ""
     }
   ]
