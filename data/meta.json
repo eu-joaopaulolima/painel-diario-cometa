@@ -1,0 +1,65 @@
+{
+ "atualizado_em": "2026-11-10T13:54:32.212304+00:00",
+ "fuso": "America/Cuiaba",
+ "amostra": false,
+ "instagram_ok": true,
+ "google_ok": false,
+ "unidades": [
+  {
+   "id": "hyundai-vilhena",
+   "nome": "Hyundai Cometa Vilhena",
+   "cidade": "Vilhena/RO",
+   "marca": "Hyundai",
+   "instagram": "hyundai.cometa.vilhena"
+  },
+  {
+   "id": "hyundai-tangara",
+   "nome": "Hyundai Cometa Tangará da Serra",
+   "cidade": "Tangará da Serra/MT",
+   "marca": "Hyundai",
+   "instagram": "hyundai.cometa.tangara"
+  },
+  {
+   "id": "hyundai-rondonopolis",
+   "nome": "Hyundai Cometa Rondonópolis",
+   "cidade": "Rondonópolis/MT",
+   "marca": "Hyundai",
+   "instagram": "hyundai.cometa.rondonopolis"
+  },
+  {
+   "id": "hyundai-sinop",
+   "nome": "Hyundai Cometa Sinop",
+   "cidade": "Sinop/MT",
+   "marca": "Hyundai",
+   "instagram": "hyundai.cometa.sinop"
+  },
+  {
+   "id": "hyundai-cacoal",
+   "nome": "Hyundai Cometa Cacoal",
+   "cidade": "Cacoal/RO",
+   "marca": "Hyundai",
+   "instagram": "hyundai.cometa.cacoal"
+  },
+  {
+   "id": "vw-caceres",
+   "nome": "Cometa VW Cáceres",
+   "cidade": "Cáceres/MT",
+   "marca": "Volkswagen",
+   "instagram": "cometavw.caceres"
+  },
+  {
+   "id": "clicar-veiculos",
+   "nome": "Clicar Veículos",
+   "cidade": "",
+   "marca": "Clicar",
+   "instagram": "clicar.veiculos"
+  },
+  {
+   "id": "clicar-rondonia",
+   "nome": "Clicar Rondônia",
+   "cidade": "Rondônia",
+   "marca": "Clicar",
+   "instagram": "clicar.rondonia"
+  }
+ ]
+}
