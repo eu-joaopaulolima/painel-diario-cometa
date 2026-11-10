@@ -214,11 +214,60 @@ def resolver_place_id(u, cache):
     return pid
 
 
+APIFY_TOKEN = os.environ.get("APIFY_TOKEN", "").strip()
+APIFY_ATOR = "compass~crawler-google-places"
+
+
+def coletar_google_apify(agora, base, cache):
+    """Nota e total de avaliações via Apify (Google Maps Scraper), numa única execução."""
+    hoje = agora.astimezone(FUSO).date().isoformat()
+    ok = False
+    for u in CONFIG["unidades"]:
+        reg = base.get(u["id"], {"historico": []})
+        pid = u.get("google_place_id") or cache.get(u["id"], {}).get("place_id")
+        entrada = {"language": "pt-BR", "maxReviews": 0, "maxImages": 0,
+                   "scrapeContacts": False, "skipClosedPlaces": False}
+        if pid:
+            entrada["startUrls"] = [{"url": f"https://www.google.com/maps/search/?api=1&query=Google&query_place_id={pid}"}]
+        else:
+            entrada["searchStringsArray"] = [u["google_busca"]]
+            entrada["maxCrawledPlacesPerSearch"] = 1
+        url = (f"https://api.apify.com/v2/acts/{APIFY_ATOR}/run-sync-get-dataset-items?"
+               + urllib.parse.urlencode({"token": APIFY_TOKEN, "timeout": 240}))
+        try:
+            itens = http_json(url, "POST", entrada, tentativas=2)
+            if not itens:
+                raise RuntimeError("nenhum resultado no Google Maps")
+            d = itens[0]
+        except Exception as e:
+            reg["erro"] = str(e).replace(APIFY_TOKEN, "***")[:300]
+            print(f"[erro] Google {u['id']}: {reg['erro']}", file=sys.stderr)
+            base[u["id"]] = reg
+            continue
+        novo_pid = d.get("placeId") or pid or ""
+        if novo_pid and u["id"] not in cache:
+            cache[u["id"]] = {"place_id": novo_pid, "consulta": u["google_busca"], "nome": d.get("title", "")}
+        hist = [h for h in reg.get("historico", []) if h["data"] != hoje]
+        hist.append({"data": hoje, "nota": d.get("totalScore"), "total": d.get("reviewsCount") or 0})
+        base[u["id"]] = {
+            "place_id": novo_pid,
+            "nome_google": d.get("title", ""),
+            "endereco": d.get("address", ""),
+            "link_maps": d.get("url", ""),
+            "historico": hist[-DIAS_GUARDADOS:],
+        }
+        ok = True
+        print(f"[ok] Google {u['id']}: {d.get('title')} · nota {d.get('totalScore')} · {d.get('reviewsCount')} avaliações")
+    return base, cache, ok
+
+
 def coletar_google(agora):
     base = ler_json("google.json", {})
     cache = ler_json("places.json", {})
+    if not GOOGLE_KEY and APIFY_TOKEN:
+        return coletar_google_apify(agora, base, cache)
     if not GOOGLE_KEY:
-        print("[aviso] GOOGLE_PLACES_KEY ausente: Google não coletado", file=sys.stderr)
+        print("[aviso] Sem GOOGLE_PLACES_KEY nem APIFY_TOKEN: Google não coletado", file=sys.stderr)
         return base, cache, False
     hoje = agora.astimezone(FUSO).date().isoformat()
     ok = False

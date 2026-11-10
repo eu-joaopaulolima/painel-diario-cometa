@@ -163,7 +163,7 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
   </section>
 
   <footer>
-    <span>Instagram: API oficial da Meta (Business Discovery), lendo os posts públicos de cada perfil. Google: Google Places API, com nota e total de avaliações.</span>
+    <span>Instagram: API oficial da Meta (Business Discovery), lendo os posts públicos de cada perfil. Google: nota e total de avaliações de cada perfil no Google Maps, coletados pelo Apify.</span>
     <span>Os dias seguem o horário de Cuiabá. O painel mostra o dia anterior completo, porque a coleta acontece às 7h.</span>
   </footer>
 </div>
@@ -236,7 +236,7 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
     $("banner").hidden = !m.amostra;
     var avisos = [];
     if (m.instagram_ok === false) avisos.push("A última coleta do Instagram falhou. Confira o token da Meta nos Secrets do repositório.");
-    if (m.google_ok === false) avisos.push("A última coleta do Google falhou. Confira a chave da Places API nos Secrets do repositório.");
+    if (m.google_ok === false) avisos.push("A última coleta do Google falhou. Confira o APIFY_TOKEN nos Secrets do repositório.");
     D.unis.forEach(function (x) { if (x.ig.erro) avisos.push("@" + x.u.instagram + ": " + x.ig.erro.slice(0, 120)); if (x.g.erro) avisos.push("Google " + x.u.nome + ": " + x.g.erro.slice(0, 120)); });
     $("aviso").hidden = !avisos.length; $("aviso").innerHTML = avisos.map(esc).join("<br>");
     resumo(); ranking(); heat(); google();
