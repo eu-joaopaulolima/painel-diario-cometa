@@ -1,5 +1,5 @@
 {
- "atualizado_em": "2026-11-10T20:47:34.050651+00:00",
+ "atualizado_em": "2026-11-10T20:53:51.306033+00:00",
  "fuso": "America/Cuiaba",
  "amostra": false,
  "instagram_ok": true,
@@ -8,6 +8,7 @@
   {
    "id": "hyundai-vilhena",
    "nome": "Hyundai Cometa Vilhena",
+   "nome_instagram": "",
    "cidade": "Vilhena/RO",
    "marca": "Hyundai",
    "instagram": "hyundai.cometa.vilhena"
@@ -15,6 +16,7 @@
   {
    "id": "hyundai-tangara",
    "nome": "Hyundai Cometa Tangará da Serra",
+   "nome_instagram": "",
    "cidade": "Tangará da Serra/MT",
    "marca": "Hyundai",
    "instagram": "hyundai.cometa.tangara"
@@ -22,6 +24,7 @@
   {
    "id": "hyundai-rondonopolis",
    "nome": "Hyundai Cometa Rondonópolis",
+   "nome_instagram": "",
    "cidade": "Rondonópolis/MT",
    "marca": "Hyundai",
    "instagram": "hyundai.cometa.rondonopolis"
@@ -29,6 +32,7 @@
   {
    "id": "hyundai-sinop",
    "nome": "Hyundai Cometa Sinop",
+   "nome_instagram": "",
    "cidade": "Sinop/MT",
    "marca": "Hyundai",
    "instagram": "hyundai.cometa.sinop"
@@ -36,6 +40,7 @@
   {
    "id": "hyundai-cacoal",
    "nome": "Hyundai Cometa Cacoal",
+   "nome_instagram": "",
    "cidade": "Cacoal/RO",
    "marca": "Hyundai",
    "instagram": "hyundai.cometa.cacoal"
@@ -43,16 +48,26 @@
   {
    "id": "vw-caceres",
    "nome": "Cometa VW Cáceres",
+   "nome_instagram": "",
    "cidade": "Cáceres/MT",
    "marca": "Volkswagen",
    "instagram": "cometavw.caceres"
   },
   {
    "id": "clicar-veiculos",
-   "nome": "Clicar Veículos",
-   "cidade": "",
+   "nome": "Clicar Veículos Tangará da Serra",
+   "nome_instagram": "Clicar Veículos",
+   "cidade": "Tangará da Serra/MT",
    "marca": "Clicar",
    "instagram": "clicar.veiculos"
+  },
+  {
+   "id": "clicar-caceres",
+   "nome": "Clicar Veículos Cáceres",
+   "nome_instagram": "",
+   "cidade": "Cáceres/MT",
+   "marca": "Clicar",
+   "instagram": ""
   }
  ]
 }

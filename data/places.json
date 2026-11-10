@@ -28,5 +28,15 @@
   "place_id": "ChIJaabc_6j_mpMRKuIGzl2_GXU",
   "consulta": "Cometa Volkswagen Cáceres",
   "nome": "Cometa Volkswagen - Concessionária"
+ },
+ "clicar-veiculos": {
+  "place_id": "ChIJA86fjw39mJMRyXUdQQDruMY",
+  "consulta": "Clicar Veículos Tangará da Serra MT",
+  "nome": "Clicar Veículos Tangará da Serra"
+ },
+ "clicar-caceres": {
+  "place_id": "ChIJS_CJJgj_mpMRdNXx10KgDpY",
+  "consulta": "Clicar Veículos Cáceres MT",
+  "nome": "Clicar Veículos Cáceres"
  }
 }

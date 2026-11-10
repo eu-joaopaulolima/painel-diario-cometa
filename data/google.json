@@ -76,5 +76,31 @@
     "total": 248
    }
   ]
+ },
+ "clicar-veiculos": {
+  "place_id": "ChIJA86fjw39mJMRyXUdQQDruMY",
+  "nome_google": "Clicar Veículos Tangará da Serra",
+  "endereco": "Av. Brasil, 2018 - W - Jardim Acacia, Tangará da Serra - MT, 78300-000, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=Clicar%20Ve%C3%ADculos%20Tangar%C3%A1%20da%20Serra&query_place_id=ChIJA86fjw39mJMRyXUdQQDruMY",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 5,
+    "total": 6
+   }
+  ]
+ },
+ "clicar-caceres": {
+  "place_id": "ChIJS_CJJgj_mpMRdNXx10KgDpY",
+  "nome_google": "Clicar Veículos Cáceres",
+  "endereco": "Av. Gen. Osório, 1150B - Centro, Cáceres - MT, 78200-000, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=Clicar%20Ve%C3%ADculos%20C%C3%A1ceres&query_place_id=ChIJS_CJJgj_mpMRdNXx10KgDpY",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 4.6,
+    "total": 13
+   }
+  ]
  }
 }
