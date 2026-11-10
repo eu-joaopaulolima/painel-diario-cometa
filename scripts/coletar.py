@@ -127,7 +127,30 @@ def coletar_instagram(agora):
         }
         ok = True
         print(f"[ok] @{user}: {len(posts)} posts no histórico")
+    if not ok:
+        diagnosticar_meta()
     return base, ok
+
+
+def diagnosticar_meta():
+    """Mostra no log o que o token enxerga (sem expor o token)."""
+    print("---- diagnóstico Meta ----")
+    testes = {
+        "quem é o token": f"{GRAPH}/me?fields=id,name",
+        "permissões concedidas": f"{GRAPH}/me/permissions",
+        "Páginas visíveis": f"{GRAPH}/me/accounts?fields=name,instagram_business_account&limit=50",
+        "conta IG_USER_ID": f"{GRAPH}/{IG_USER_ID}?fields=id,username",
+    }
+    for nome, url in testes.items():
+        sep = "&" if "?" in url else "?"
+        try:
+            r = http_json(url + sep + "access_token=" + urllib.parse.quote(META_TOKEN), tentativas=1)
+            if nome == "permissões concedidas":
+                r = [f"{p['permission']}={p['status']}" for p in r.get("data", [])]
+            print(f"[diag] {nome}: {json.dumps(r, ensure_ascii=False)[:600]}")
+        except Exception as e:
+            print(f"[diag] {nome}: ERRO {str(e)[:300]}")
+    print("---- fim do diagnóstico ----")
 
 
 # ---------------------------------------------------------------- Google
