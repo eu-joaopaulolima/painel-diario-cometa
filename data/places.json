@@ -1,1 +1,37 @@
-{}
+{
+ "hyundai-vilhena": {
+  "place_id": "ChIJm1IwXg5puZMR0Y_Y4BlqwHs",
+  "consulta": "Hyundai Cometa Vilhena",
+  "nome": "Hyundai Cometa Vilhena"
+ },
+ "hyundai-tangara": {
+  "place_id": "ChIJh63YyDb7mJMRzXu5RDpp59I",
+  "consulta": "Hyundai Cometa Tangará da Serra",
+  "nome": "Hyundai Cometa - Tangará Da Serra"
+ },
+ "hyundai-rondonopolis": {
+  "place_id": "ChIJSaUC5U_IeZMRKyGf7mudsEs",
+  "consulta": "Hyundai Cometa Rondonópolis",
+  "nome": "Hyundai Cometa - Rondonópolis"
+ },
+ "hyundai-sinop": {
+  "place_id": "ChIJQ8gE-9p_p5MRE8tW2olKGqM",
+  "consulta": "Hyundai Cometa Sinop",
+  "nome": "Hyundai Cometa - Sinop"
+ },
+ "hyundai-cacoal": {
+  "place_id": "ChIJs16Y-WcvyJMRXTRVFWmguDc",
+  "consulta": "Hyundai Cometa Cacoal",
+  "nome": "Cometa Hyundai - Cacoal - RO"
+ },
+ "vw-caceres": {
+  "place_id": "ChIJaabc_6j_mpMRKuIGzl2_GXU",
+  "consulta": "Cometa Volkswagen Cáceres",
+  "nome": "Cometa Volkswagen - Concessionária"
+ },
+ "clicar-veiculos": {
+  "place_id": "ChIJJbXSSxJ3GZURSdIQlmKzReg",
+  "consulta": "Clicar Veículos",
+  "nome": "ClikCar RS"
+ }
+}

@@ -1,1 +1,93 @@
-{}
+{
+ "hyundai-vilhena": {
+  "place_id": "ChIJm1IwXg5puZMR0Y_Y4BlqwHs",
+  "nome_google": "Hyundai Cometa Vilhena",
+  "endereco": "Av. Celso Mazutti, 8173 - Jardim Eldorado, Vilhena - RO, 76987-487, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=Hyundai%20Cometa%20Vilhena&query_place_id=ChIJm1IwXg5puZMR0Y_Y4BlqwHs",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 4.7,
+    "total": 109
+   }
+  ]
+ },
+ "hyundai-tangara": {
+  "place_id": "ChIJh63YyDb7mJMRzXu5RDpp59I",
+  "nome_google": "Hyundai Cometa - Tangará Da Serra",
+  "endereco": "Av. Brasil, 2049S - Jardim Cidade Alta, Tangará da Serra - MT, 78306-157, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=Hyundai%20Cometa%20-%20Tangar%C3%A1%20Da%20Serra&query_place_id=ChIJh63YyDb7mJMRzXu5RDpp59I",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 4.6,
+    "total": 306
+   }
+  ]
+ },
+ "hyundai-rondonopolis": {
+  "place_id": "ChIJSaUC5U_IeZMRKyGf7mudsEs",
+  "nome_google": "Hyundai Cometa - Rondonópolis",
+  "endereco": "R. Fernando Corrêa da Costa, 2574 - Jardim Belo Horizonte, Rondonópolis - MT, 78705-600, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=Hyundai%20Cometa%20-%20Rondon%C3%B3polis&query_place_id=ChIJSaUC5U_IeZMRKyGf7mudsEs",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 4.5,
+    "total": 594
+   }
+  ]
+ },
+ "hyundai-sinop": {
+  "place_id": "ChIJQ8gE-9p_p5MRE8tW2olKGqM",
+  "nome_google": "Hyundai Cometa - Sinop",
+  "endereco": "R. Colonizador Ênio Pipino, 1093 - St. Industrial Sul, Sinop - MT, 78557-477, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=Hyundai%20Cometa%20-%20Sinop&query_place_id=ChIJQ8gE-9p_p5MRE8tW2olKGqM",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 4.6,
+    "total": 660
+   }
+  ]
+ },
+ "hyundai-cacoal": {
+  "place_id": "ChIJs16Y-WcvyJMRXTRVFWmguDc",
+  "nome_google": "Cometa Hyundai - Cacoal - RO",
+  "endereco": "Av. Castelo Branco, 18666 - sl 01 Térreo - Princesa Isabel, Cacoal - RO, 76964-012, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=Cometa%20Hyundai%20-%20Cacoal%20-%20RO&query_place_id=ChIJs16Y-WcvyJMRXTRVFWmguDc",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 4.4,
+    "total": 34
+   }
+  ]
+ },
+ "vw-caceres": {
+  "place_id": "ChIJaabc_6j_mpMRKuIGzl2_GXU",
+  "nome_google": "Cometa Volkswagen - Concessionária",
+  "endereco": "Av. São Luís, 1990 B - Junco, Cáceres - MT, 78200-880, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=Cometa%20Volkswagen%20-%20Concession%C3%A1ria&query_place_id=ChIJaabc_6j_mpMRKuIGzl2_GXU",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 4.7,
+    "total": 248
+   }
+  ]
+ },
+ "clicar-veiculos": {
+  "place_id": "ChIJJbXSSxJ3GZURSdIQlmKzReg",
+  "nome_google": "ClikCar RS",
+  "endereco": "Av. Carneiro da Fontoura, 871 - Jardim São Pedro, Porto Alegre - RS, 91040-170, Brasil",
+  "link_maps": "https://www.google.com/maps/search/?api=1&query=ClikCar%20RS&query_place_id=ChIJJbXSSxJ3GZURSdIQlmKzReg",
+  "historico": [
+   {
+    "data": "2026-11-10",
+    "nota": 4.2,
+    "total": 411
+   }
+  ]
+ }
+}
