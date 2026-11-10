@@ -1,0 +1,86 @@
+{
+  "fuso": "America/Cuiaba",
+  "graph_api_versao": "v22.0",
+  "unidades": [
+    {
+      "id": "hyundai-vilhena",
+      "nome": "Hyundai Cometa Vilhena",
+      "cidade": "Vilhena/RO",
+      "marca": "Hyundai",
+      "instagram": "hyundai.cometa.vilhena",
+      "google_link": "https://share.google/D0c3b7auTNVXJynBH",
+      "google_busca": "Hyundai Cometa Vilhena",
+      "google_place_id": ""
+    },
+    {
+      "id": "hyundai-tangara",
+      "nome": "Hyundai Cometa Tangará da Serra",
+      "cidade": "Tangará da Serra/MT",
+      "marca": "Hyundai",
+      "instagram": "hyundai.cometa.tangara",
+      "google_link": "https://share.google/kpbFmSKKKbNR1i3rH",
+      "google_busca": "Hyundai Cometa Tangará da Serra",
+      "google_place_id": ""
+    },
+    {
+      "id": "hyundai-rondonopolis",
+      "nome": "Hyundai Cometa Rondonópolis",
+      "cidade": "Rondonópolis/MT",
+      "marca": "Hyundai",
+      "instagram": "hyundai.cometa.rondonopolis",
+      "google_link": "https://share.google/ptaTCOldJpnYOgCXw",
+      "google_busca": "Hyundai Cometa Rondonópolis",
+      "google_place_id": ""
+    },
+    {
+      "id": "hyundai-sinop",
+      "nome": "Hyundai Cometa Sinop",
+      "cidade": "Sinop/MT",
+      "marca": "Hyundai",
+      "instagram": "hyundai.cometa.sinop",
+      "google_link": "https://share.google/GJzMHgcwhXQlCttdW",
+      "google_busca": "Hyundai Cometa Sinop",
+      "google_place_id": ""
+    },
+    {
+      "id": "hyundai-cacoal",
+      "nome": "Hyundai Cometa Cacoal",
+      "cidade": "Cacoal/RO",
+      "marca": "Hyundai",
+      "instagram": "hyundai.cometa.cacoal",
+      "google_link": "https://share.google/QyMGeGxRCPO1QAaYE",
+      "google_busca": "Hyundai Cometa Cacoal",
+      "google_place_id": ""
+    },
+    {
+      "id": "vw-caceres",
+      "nome": "Cometa VW Cáceres",
+      "cidade": "Cáceres/MT",
+      "marca": "Volkswagen",
+      "instagram": "cometavw.caceres",
+      "google_link": "https://share.google/Mwmd4uInHqLdJsHwB",
+      "google_busca": "Cometa Volkswagen Cáceres",
+      "google_place_id": ""
+    },
+    {
+      "id": "clicar-veiculos",
+      "nome": "Clicar Veículos",
+      "cidade": "",
+      "marca": "Clicar",
+      "instagram": "clicar.veiculos",
+      "google_link": "https://share.google/Tcu2SEwNl9FIBoxye",
+      "google_busca": "Clicar Veículos",
+      "google_place_id": ""
+    },
+    {
+      "id": "clicar-rondonia",
+      "nome": "Clicar Rondônia",
+      "cidade": "Rondônia",
+      "marca": "Clicar",
+      "instagram": "clicar.rondonia",
+      "google_link": "https://share.google/QAy6UPymz8E3rO0QO",
+      "google_busca": "Clicar Veículos Rondônia",
+      "google_place_id": ""
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+name: Atualização diária
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC = 07:00 em Cuiabá (o GitHub pode atrasar alguns minutos)
+  workflow_dispatch: {}      # botão "Run workflow" para rodar na hora
+  push:
+    branches: [main]
+    paths: ["config.json", "src/**", "scripts/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: coleta
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Coletar Instagram e Google
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GOOGLE_PLACES_KEY: ${{ secrets.GOOGLE_PLACES_KEY }}
+        run: python scripts/coletar.py
+
+      - name: Montar a página
+        run: python scripts/montar_index.py
+
+      - name: Guardar o histórico no repositório
+        run: |
+          git config user.name "painel-cometa-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data index.html
+          if git diff --cached --quiet; then
+            echo "Sem mudanças"
+          else
+            git commit -m "Coleta diária $(TZ=America/Cuiaba date +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Preparar site
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r data _site/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
