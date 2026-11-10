@@ -1,5 +1,32 @@
 {
  "hyundai-vilhena": {
+  "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xsS1pXeFBkaTFEYVZKTVNtWk5RMjFWVmpBelRuYxAB",
+    "ts": "2026-11-10T12:24:24.529Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2paRlMwcDJUMFZ0YVVSRlNHWlJTR3BTVUZOSmJIYxAB",
+    "ts": "2026-11-09T17:49:46.721Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21jMFVUWTFla2hhYkZSU01XOWZjRGxhYVdoR1oyYxAB",
+    "ts": "2026-11-09T17:02:08.951Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCT2NVVmZOMjF2YWpJeFIxbHdPRTl5VG01MU5tYxAB",
+    "ts": "2026-11-09T16:57:40.801Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tzNGJUVjFiekpvWkhKWFRFbEZNalU1Tm5WWWNGRRAB",
+    "ts": "2026-11-09T16:55:42.325Z",
+    "estrelas": 5
+   }
+  ],
   "place_id": "ChIJm1IwXg5puZMR0Y_Y4BlqwHs",
   "nome_google": "Hyundai Cometa Vilhena",
   "endereco": "Av. Celso Mazutti, 8173 - Jardim Eldorado, Vilhena - RO, 76987-487, Brasil",
@@ -13,6 +40,98 @@
   ]
  },
  "hyundai-tangara": {
+  "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWVGEwNXZkMHRNYkMwNE4yMTNja0ZHU1ZCUFRsRRAB",
+    "ts": "2026-11-10T17:06:58.052Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21SQ1RGUmFjM05hVVcxemN6Wm9NSEZhYmxKdGVrRRAB",
+    "ts": "2026-11-10T15:28:43.450Z",
+    "estrelas": 5
+   },
+   {
+    "id": "ChdDSUhNMG9nS0VJQ0FnSUNwbTdQazV3RRAB",
+    "ts": "2026-11-06T22:54:52.095Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tOaVZHOXRkRmROVTJWbk9WZzJjWEF5YzJaV2MwRRAB",
+    "ts": "2026-11-06T13:31:28.067Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25OMVlrSnlZWHA0WW5sUVpGZFlNM2Q1YjI0NGRuYxAB",
+    "ts": "2026-11-06T13:26:07.505Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5WWJHbzBka1ZsVFZOM2IyaGlXWGh0U1dWRGRHYxAB",
+    "ts": "2026-11-06T13:22:56.871Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t3MWRrZEVhakUzWldZdFYzbzBUWEZ4YWw4d0xWRRAB",
+    "ts": "2026-11-06T13:21:55.436Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2psT2EzZDVVMVpoUkROWlZqRkNOVkJtV0VNd2RHYxAB",
+    "ts": "2026-11-06T13:20:25.143Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tkWlFqUmpkakpZUTJWVFIyUlFibFZYWlZCd1kyYxAB",
+    "ts": "2026-11-06T13:18:35.978Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwWk5XTnRZMlJSZDJ3ekxWZFViM2xoTUU1ZlMxRRAB",
+    "ts": "2026-11-06T13:17:26.316Z",
+    "estrelas": 5
+   },
+   {
+    "id": "ChdDSUhNMG9nS0VJQ0FnSUQyeGRhWDNBRRAB",
+    "ts": "2026-11-06T13:14:06.270Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tabFRsWkhaMlJUUkRaMlowRnRlbkppWkRWMlYzYxAB",
+    "ts": "2026-11-06T13:11:40.065Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pnMlZVMHlkMVF4VDJkSmNHbE1lV04xU2xCb2MyYxAB",
+    "ts": "2026-11-06T13:11:00.256Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSeFRIRnVSa1pKV1ZWa2JGbHBlRTF0WWxkbVMxRRAB",
+    "ts": "2026-11-06T13:02:24.428Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21GYWRGTXljRXBGWVdOTk5TMWlVbmg1YjJrMVRVRRAB",
+    "ts": "2026-11-06T13:01:17.505Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21jeFRGRnFiMVJ4YlVkZldqQjNNQzFyZEdkUmVHYxAB",
+    "ts": "2026-11-06T13:01:10.988Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoMVRFd3dUV1J0WTBGMUxYbHZRMWh4UWtSbFMxRRAB",
+    "ts": "2026-11-06T12:59:21.882Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCMVVFVnRTMnczUzJ4R01IWktVbGhuU25SbGRGRRAB",
+    "ts": "2026-11-06T12:56:26.936Z",
+    "estrelas": 5
+   }
+  ],
   "place_id": "ChIJh63YyDb7mJMRzXu5RDpp59I",
   "nome_google": "Hyundai Cometa - Tangará Da Serra",
   "endereco": "Av. Brasil, 2049S - Jardim Cidade Alta, Tangará da Serra - MT, 78306-157, Brasil",
@@ -26,6 +145,13 @@
   ]
  },
  "hyundai-rondonopolis": {
+  "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25KcVFrZGllR2xQZUhjMVZYYzJiMDlNZDNCT2IyYxAB",
+    "ts": "2026-10-12T21:50:40.550Z",
+    "estrelas": 4
+   }
+  ],
   "place_id": "ChIJSaUC5U_IeZMRKyGf7mudsEs",
   "nome_google": "Hyundai Cometa - Rondonópolis",
   "endereco": "R. Fernando Corrêa da Costa, 2574 - Jardim Belo Horizonte, Rondonópolis - MT, 78705-600, Brasil",
@@ -39,6 +165,48 @@
   ]
  },
  "hyundai-sinop": {
+  "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT210MGMzbEJhMmhIYXpGWlkwVTVSa055V21JdExWRRAB",
+    "ts": "2026-11-09T21:17:32.227Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25kM2VrdGhZVmRRTkhoU05YRk9RVkJxY1VSbExVRRAB",
+    "ts": "2026-11-04T13:55:02.399Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSWVNqQjNSVVEwUlZkUVJUVmlkRk13ZFZsM1pVRRAB",
+    "ts": "2026-11-01T14:30:46.721Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25WaGFrSnZkMHB0VHkxeVdIVjJWMEpzU2pOTFJWRRAB",
+    "ts": "2026-10-25T01:39:40.064Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21jeVdFSnVaazlTYTFWck9ETjViWFV6WlRCNmNrRRAB",
+    "ts": "2026-10-21T13:34:37.030Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pNMldXRnhkV2QxUjA5VFVIaERZMUJhYmpOWGJIYxAB",
+    "ts": "2026-10-20T19:23:37.797Z",
+    "estrelas": 1
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSSVNVSlhlRk0yY0VwR2MwVTVhbEpDU1ZKelVuYxAB",
+    "ts": "2026-10-20T15:21:32.517Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pJNE9ITlhOM2hwWmtNM05HSmFkRGRuYjBWb1gzYxAB",
+    "ts": "2026-10-19T21:45:35.022Z",
+    "estrelas": 5
+   }
+  ],
   "place_id": "ChIJQ8gE-9p_p5MRE8tW2olKGqM",
   "nome_google": "Hyundai Cometa - Sinop",
   "endereco": "R. Colonizador Ênio Pipino, 1093 - St. Industrial Sul, Sinop - MT, 78557-477, Brasil",
@@ -52,6 +220,7 @@
   ]
  },
  "hyundai-cacoal": {
+  "avaliacoes": [],
   "place_id": "ChIJs16Y-WcvyJMRXTRVFWmguDc",
   "nome_google": "Cometa Hyundai - Cacoal - RO",
   "endereco": "Av. Castelo Branco, 18666 - sl 01 Térreo - Princesa Isabel, Cacoal - RO, 76964-012, Brasil",
@@ -65,6 +234,23 @@
   ]
  },
  "vw-caceres": {
+  "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25OTVpqSk5Wa1I0UTBVdE5rWmtkRTl5V1RGNGFuYxAB",
+    "ts": "2026-11-06T21:13:01.042Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pCMVJuTlFUVTF6UTJORmVFdHBlbmxrZFdSZkxWRRAB",
+    "ts": "2026-11-06T21:12:52.690Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT200dGFIbE1ZV296ZG5CMFpFMWlRazQzV0VOalMwRRAB",
+    "ts": "2026-11-05T10:56:15.785Z",
+    "estrelas": 5
+   }
+  ],
   "place_id": "ChIJaabc_6j_mpMRKuIGzl2_GXU",
   "nome_google": "Cometa Volkswagen - Concessionária",
   "endereco": "Av. São Luís, 1990 B - Junco, Cáceres - MT, 78200-880, Brasil",
@@ -78,6 +264,7 @@
   ]
  },
  "clicar-veiculos": {
+  "avaliacoes": [],
   "place_id": "ChIJA86fjw39mJMRyXUdQQDruMY",
   "nome_google": "Clicar Veículos Tangará da Serra",
   "endereco": "Av. Brasil, 2018 - W - Jardim Acacia, Tangará da Serra - MT, 78300-000, Brasil",
@@ -91,6 +278,7 @@
   ]
  },
  "clicar-caceres": {
+  "avaliacoes": [],
   "place_id": "ChIJS_CJJgj_mpMRdNXx10KgDpY",
   "nome_google": "Clicar Veículos Cáceres",
   "endereco": "Av. Gen. Osório, 1150B - Centro, Cáceres - MT, 78200-000, Brasil",
