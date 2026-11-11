@@ -36,11 +36,21 @@
     "data": "2026-11-10",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-11",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
  "hyundai-tangara": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25kUlVtMUZUWGczVTJOTVVETkphRGxhVFd0Sk1tYxAB",
+    "ts": "2026-11-10T20:54:26.431Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWVGEwNXZkMHRNYkMwNE4yMTNja0ZHU1ZCUFRsRRAB",
     "ts": "2026-11-10T17:06:58.052Z",
@@ -141,11 +151,21 @@
     "data": "2026-11-10",
     "nota": 4.6,
     "total": 306
+   },
+   {
+    "data": "2026-11-11",
+    "nota": 4.6,
+    "total": 307
    }
   ]
  },
  "hyundai-rondonopolis": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2twT2MyVTJOa3BOU1RWSk5USmpURGhEZGpobmJuYxAB",
+    "ts": "2026-11-11T13:00:26.885Z",
+    "estrelas": 4
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT25KcVFrZGllR2xQZUhjMVZYYzJiMDlNZDNCT2IyYxAB",
     "ts": "2026-10-12T21:50:40.550Z",
@@ -161,11 +181,21 @@
     "data": "2026-11-10",
     "nota": 4.5,
     "total": 594
+   },
+   {
+    "data": "2026-11-11",
+    "nota": 4.5,
+    "total": 594
    }
   ]
  },
  "hyundai-sinop": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pFMGVuTjZjSEZSTWpac1FrWkJVM0JGVEd4ZlgxRRAB",
+    "ts": "2026-11-11T15:18:11.193Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT210MGMzbEJhMmhIYXpGWlkwVTVSa055V21JdExWRRAB",
     "ts": "2026-11-09T21:17:32.227Z",
@@ -216,6 +246,11 @@
     "data": "2026-11-10",
     "nota": 4.6,
     "total": 660
+   },
+   {
+    "data": "2026-11-11",
+    "nota": 4.6,
+    "total": 661
    }
   ]
  },
@@ -228,6 +263,11 @@
   "historico": [
    {
     "data": "2026-11-10",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-11",
     "nota": 4.4,
     "total": 34
    }
@@ -260,6 +300,11 @@
     "data": "2026-11-10",
     "nota": 4.7,
     "total": 248
+   },
+   {
+    "data": "2026-11-11",
+    "nota": 4.7,
+    "total": 248
    }
   ]
  },
@@ -274,6 +319,11 @@
     "data": "2026-11-10",
     "nota": 5,
     "total": 6
+   },
+   {
+    "data": "2026-11-11",
+    "nota": 5,
+    "total": 6
    }
   ]
  },
@@ -286,6 +336,11 @@
   "historico": [
    {
     "data": "2026-11-10",
+    "nota": 4.6,
+    "total": 13
+   },
+   {
+    "data": "2026-11-11",
     "nota": 4.6,
     "total": 13
    }
