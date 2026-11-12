@@ -41,6 +41,11 @@
     "data": "2026-11-11",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-12",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
@@ -156,6 +161,11 @@
     "data": "2026-11-11",
     "nota": 4.6,
     "total": 307
+   },
+   {
+    "data": "2026-11-12",
+    "nota": 4.6,
+    "total": 307
    }
   ]
  },
@@ -184,6 +194,11 @@
    },
    {
     "data": "2026-11-11",
+    "nota": 4.5,
+    "total": 594
+   },
+   {
+    "data": "2026-11-12",
     "nota": 4.5,
     "total": 594
    }
@@ -252,7 +267,8 @@
     "nota": 4.6,
     "total": 661
    }
-  ]
+  ],
+  "erro": "The read operation timed out"
  },
  "hyundai-cacoal": {
   "avaliacoes": [],
@@ -268,6 +284,11 @@
    },
    {
     "data": "2026-11-11",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-12",
     "nota": 4.4,
     "total": 34
    }
@@ -305,6 +326,11 @@
     "data": "2026-11-11",
     "nota": 4.7,
     "total": 248
+   },
+   {
+    "data": "2026-11-12",
+    "nota": 4.7,
+    "total": 248
    }
   ]
  },
@@ -325,7 +351,8 @@
     "nota": 5,
     "total": 6
    }
-  ]
+  ],
+  "erro": "HTTP 402: {\n  \"error\": {\n    \"type\": \"actor-memory-limit-exceeded\",\n    \"message\": \"By launching this job you will exceed the memory limit of 16384MB for all your Actor runs and builds (currently used: 16384MB, requested: 4096MB). Please consider an upgrade to a paid plan at https://console.apify.co"
  },
  "clicar-caceres": {
   "avaliacoes": [],
@@ -344,6 +371,7 @@
     "nota": 4.6,
     "total": 13
    }
-  ]
+  ],
+  "erro": "HTTP 402: {\n  \"error\": {\n    \"type\": \"actor-memory-limit-exceeded\",\n    \"message\": \"By launching this job you will exceed the memory limit of 16384MB for all your Actor runs and builds (currently used: 16384MB, requested: 4096MB). Please consider an upgrade to a paid plan at https://console.apify.co"
  }
 }
