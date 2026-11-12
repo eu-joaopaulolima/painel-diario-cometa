@@ -1,7 +1,7 @@
 {
  "hyundai.cometa.vilhena": {
   "nome": "Hyundai Cometa Vilhena",
-  "foto": "https://scontent-iad6-1.xx.fbcdn.net/v/t51.82787-15/629258894_18313941058250179_6332508755056759446_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=vyMh9sLtWm0Q7kNvwEWAWqZ&_nc_oc=AdpIBzjT9AblATJhIN2kFGoNkczGh_ffd7f9azYtREb0sh-YMfA7R7hYKyv--Tf89ZA&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AL-3X8kEAAAA&_nc_gid=HAXS_QEtU6DfJZpS_0uA3A&oh=00_AQTX0QalxGFnipmayJ8MfaD1QhD7ChO_2Nil2rdhYycVbw&oe=6AFB8E10",
+  "foto": "https://scontent-iad6-1.xx.fbcdn.net/v/t51.82787-15/629258894_18313941058250179_6332508755056759446_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=vyMh9sLtWm0Q7kNvwHwoLAm&_nc_oc=Adp00Bd05qS0KRnpA4gnX0LoOdJ4iWUcuAJTlbtK1oa_ojv848JIvPK9G2KCPFf-d94&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AL-3X8kEAAAA&_nc_gid=TGPSdhAmhCbvveEawG-Zog&oh=00_AQTFV6dn5s4Mf8lbwU4kIOz5kut8_2paYIfNHKM2JipLCg&oe=6AFBFE90",
   "seguidores": 3799,
   "total_posts": 199,
   "seguidores_hist": [
@@ -380,13 +380,13 @@
     "link": "https://www.instagram.com/p/Da0KJMkh2S6/"
    }
   ],
-  "coletado_em": "2026-11-12T14:02:11.972481+00:00"
+  "coletado_em": "2026-11-12T21:28:14.046263+00:00"
  },
  "hyundai.cometa.tangara": {
   "nome": "Hyundai Cometa Tangará",
-  "foto": "https://scontent-iad3-1.xx.fbcdn.net/v/t51.2885-15/471590583_1763004167798132_7192769178905937752_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=Klmf0xfiCAIQ7kNvwFS2-Be&_nc_oc=Adq3eyQrnFwVrqW71NIgnwg78KQ48eAloCOE2M8fNMNClO-5DbIFoOQ7Y0bUn-HaCCw&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AL-3X8kEAAAA&oh=00_AQQLo6NIdEW1SWiWPQ6biMEytM4kT6Voqt9Gij-5t9aJUw&oe=6AFB807A",
-  "seguidores": 5646,
-  "total_posts": 1526,
+  "foto": "https://scontent-iad3-1.xx.fbcdn.net/v/t51.2885-15/471590583_1763004167798132_7192769178905937752_n.jpg?_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=Klmf0xfiCAIQ7kNvwGomkE6&_nc_oc=AdoFFroGz0fvMc_6XiGQpJ_LOiWxnmm4bGhrlqcsOFp3kPbS31SaCCcSu5p5nm2TqCs&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AL-3X8kEAAAA&oh=00_AQRHDlFxnofG7FUc1Dpxj25HSZ4iSJwk96EXPvykFH0chg&oe=6AFBF0FA",
+  "seguidores": 5647,
+  "total_posts": 1529,
   "seguidores_hist": [
    {
     "data": "2026-11-10",
@@ -398,10 +398,16 @@
    },
    {
     "data": "2026-11-12",
-    "seguidores": 5646
+    "seguidores": 5647
    }
   ],
   "posts": [
+   {
+    "id": "18026622383927593",
+    "ts": "2026-11-12T14:37:16+0000",
+    "tipo": "REELS",
+    "link": "https://www.instagram.com/reel/DfpSSaFifhw/"
+   },
    {
     "id": "18122873950982340",
     "ts": "2026-11-11T19:16:15+0000",
@@ -775,13 +781,13 @@
     "link": "https://www.instagram.com/reel/DZm1jIGgJFU/"
    }
   ],
-  "coletado_em": "2026-11-12T14:02:11.972481+00:00"
+  "coletado_em": "2026-11-12T21:28:14.046263+00:00"
  },
  "hyundai.cometa.rondonopolis": {
   "nome": "Hyundai Cometa Rondonópolis",
-  "foto": "https://scontent-iad6-1.xx.fbcdn.net/v/t51.2885-15/471779660_564858532976105_932848148413713074_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=Ip8uCtAAwiUQ7kNvwEfrCIo&_nc_oc=Adr7xRj8R674LnqB1xQHNVFeJhBHCOy1a0ZvD2qNpiM5sMHQ4mclzWynf1y6ep01q0E&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AL-3X8kEAAAA&oh=00_AQS6GFCgpPDNEgYLPeiOIPv5zieRpk0BAUj1GNi0KA7Xbw&oe=6AFB8781",
-  "seguidores": 10658,
-  "total_posts": 1879,
+  "foto": "https://scontent-iad6-1.xx.fbcdn.net/v/t51.2885-15/471779660_564858532976105_932848148413713074_n.jpg?_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=Ip8uCtAAwiUQ7kNvwFVgYys&_nc_oc=Adr06HvXHHBfe0aBJPS9UrvbvC3sZnWR13H56-Sz89SLkfsPP8PWQO6ZXoZ0W0CDBM4&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AL-3X8kEAAAA&oh=00_AQSpSDrbSn2Lr_iAp3bDYdYe3YIyN2G-9drHY78iGusgeQ&oe=6AFBF801",
+  "seguidores": 10661,
+  "total_posts": 1880,
   "seguidores_hist": [
    {
     "data": "2026-11-10",
@@ -793,10 +799,16 @@
    },
    {
     "data": "2026-11-12",
-    "seguidores": 10658
+    "seguidores": 10661
    }
   ],
   "posts": [
+   {
+    "id": "17912153313580915",
+    "ts": "2026-11-12T21:15:59+0000",
+    "tipo": "FEED",
+    "link": "https://www.instagram.com/p/Dfp__ASqtk_/"
+   },
    {
     "id": "17913085404477750",
     "ts": "2026-11-11T21:58:39+0000",
@@ -1164,13 +1176,13 @@
     "link": "https://www.instagram.com/p/DczT2JelbeI/"
    }
   ],
-  "coletado_em": "2026-11-12T14:02:11.972481+00:00"
+  "coletado_em": "2026-11-12T21:28:14.046263+00:00"
  },
  "hyundai.cometa.sinop": {
   "nome": "Hyundai Cometa Sinop",
-  "foto": "https://scontent-iad3-2.xx.fbcdn.net/v/t51.2885-15/471849547_2011397799271967_4467495333942863051_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=boE50ScDsJoQ7kNvwEuF600&_nc_oc=AdpT3T0bt5IpE8noTSaJi5HMTbHCDqgRIsTAeCGf6zS48zTRDD0KFI1LITCcmGfUz-M&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AL-3X8kEAAAA&oh=00_AQRkO5YL1awRRM82iF65yUSCJnO3i-BtyRA_XFGPsTHHgw&oe=6AFBAAA4",
-  "seguidores": 7945,
-  "total_posts": 1453,
+  "foto": "https://scontent-iad3-2.xx.fbcdn.net/v/t51.2885-15/471849547_2011397799271967_4467495333942863051_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=boE50ScDsJoQ7kNvwHoxIAv&_nc_oc=AdpP9YNx512dbCJi_GVIjBi6X961YwWI5FCbgKJ3RuWMPgC8HVha3ugIOE9OS62YOKU&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AL-3X8kEAAAA&oh=00_AQQD2CeiSOvqcC0C6sgUB85SvDTDLxZo91G7VvICL9EMbA&oe=6AFC1B24",
+  "seguidores": 7950,
+  "total_posts": 1455,
   "seguidores_hist": [
    {
     "data": "2026-11-10",
@@ -1182,10 +1194,22 @@
    },
    {
     "data": "2026-11-12",
-    "seguidores": 7945
+    "seguidores": 7950
    }
   ],
   "posts": [
+   {
+    "id": "18429933076155676",
+    "ts": "2026-11-12T20:55:54+0000",
+    "tipo": "REELS",
+    "link": "https://www.instagram.com/reel/Dfp9pwtBYB2/"
+   },
+   {
+    "id": "17893265106460425",
+    "ts": "2026-11-12T20:44:15+0000",
+    "tipo": "REELS",
+    "link": "https://www.instagram.com/reel/Dfp8UBfhfH8/"
+   },
    {
     "id": "18121583120078235",
     "ts": "2026-11-12T13:44:21+0000",
@@ -1571,11 +1595,11 @@
     "link": "https://www.instagram.com/p/DYel5AUII1i/"
    }
   ],
-  "coletado_em": "2026-11-12T14:02:11.972481+00:00"
+  "coletado_em": "2026-11-12T21:28:14.046263+00:00"
  },
  "hyundai.cometa.cacoal": {
   "nome": "Hyundai Cometa Cacoal",
-  "foto": "https://scontent-iad3-1.xx.fbcdn.net/v/t51.82787-15/673847283_18087432062080975_3067453602555516010_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=nbc7j8yE_wsQ7kNvwHruR3S&_nc_oc=Adog1yFateV2mQC7TwSR-E4GLVXAY8WUDtF6holJ41dorSjkHDY5aCuV715pcjGlGDo&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AL-3X8kEAAAA&_nc_gid=4lbE6Hf_00HbtWY5KaNICw&oh=00_AQSbKzooHwRZp1waX_iGh4BbLHfXY5Xwjksd-0qlqWyZYA&oe=6AFBAA5B",
+  "foto": "https://scontent-iad3-1.xx.fbcdn.net/v/t51.82787-15/673847283_18087432062080975_3067453602555516010_n.jpg?_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=nbc7j8yE_wsQ7kNvwEAzFGf&_nc_oc=AdohmDGyUagYKPuCZYt8gzZ1N0mwyI0g9Z1u6zMxrkjq4UDYyixuBFOFGVCfhgDh9NI&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AL-3X8kEAAAA&_nc_gid=e2hx4daIVFanamBsvfmjMQ&oh=00_AQQJEwSs9gzk7uA3SBVeIDk-byv2RkWFeidiy-1TKckEcA&oe=6AFC1ADB",
   "seguidores": 236,
   "total_posts": 31,
   "seguidores_hist": [
@@ -1750,13 +1774,13 @@
     "link": "https://www.instagram.com/reel/DZm1pB_jIRw/"
    }
   ],
-  "coletado_em": "2026-11-12T14:02:11.972481+00:00"
+  "coletado_em": "2026-11-12T21:28:14.046263+00:00"
  },
  "cometavw.caceres": {
   "nome": "Concessionária Cometa Volkswagen",
-  "foto": "https://scontent-iad3-2.xx.fbcdn.net/v/t51.82787-15/613084934_18150873835432585_1654549683752463310_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=ueJmtKcPL7AQ7kNvwHRUQr2&_nc_oc=Adpx2oWKMYZvKsZGjr0Jc-SqlmVVhtYz6kbMPLM321Gudi2S-zSioPTMZjq_TxHiYUU&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AL-3X8kEAAAA&_nc_gid=M2B0dvhuXNsKvm7JnOXY1w&oh=00_AQQPe4X-v7W8HeIFStIzaffP6wnuuZQFdWRfFXZvvPrjUA&oe=6AFB8222",
-  "seguidores": 6359,
-  "total_posts": 2599,
+  "foto": "https://scontent-iad3-2.xx.fbcdn.net/v/t51.82787-15/613084934_18150873835432585_1654549683752463310_n.jpg?_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=ueJmtKcPL7AQ7kNvwFcWPbu&_nc_oc=AdpWYyvJMJPIq8smvBFXNg9gephenKzqOHd_0UziPB7dOh-f4mJyihpO0nrhz6UhzKM&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AL-3X8kEAAAA&_nc_gid=EQqpR3zKryrHKVjabF_hPw&oh=00_AQQ46ZQa2OtCv8qZeLJPJdv3wYitxgR8OCRWwVt5ClF0Lw&oe=6AFBF2A2",
+  "seguidores": 6360,
+  "total_posts": 2600,
   "seguidores_hist": [
    {
     "data": "2026-11-10",
@@ -1768,10 +1792,16 @@
    },
    {
     "data": "2026-11-12",
-    "seguidores": 6359
+    "seguidores": 6360
    }
   ],
   "posts": [
+   {
+    "id": "18145014184612430",
+    "ts": "2026-11-12T18:22:39+0000",
+    "tipo": "REELS",
+    "link": "https://www.instagram.com/reel/DfpsAeYtzRr/"
+   },
    {
     "id": "18133164424771035",
     "ts": "2026-11-09T20:48:47+0000",
@@ -2133,12 +2163,12 @@
     "link": "https://www.instagram.com/p/DX9c_eOtHJl/"
    }
   ],
-  "coletado_em": "2026-11-12T14:02:11.972481+00:00"
+  "coletado_em": "2026-11-12T21:28:14.046263+00:00"
  },
  "clicar.veiculos": {
   "nome": "CliCAR Veículos",
-  "foto": "https://scontent-iad3-2.xx.fbcdn.net/v/t51.82787-15/539797262_17912408235190917_3108839944954499607_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=0tWntfKAyC0Q7kNvwGinqDl&_nc_oc=Adq1jUzjNsejGg4G2fjT1tGYQFRAGJSUi5109G8LYabVATFW-Tj7KTcO9bijc4z9l14&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AL-3X8kEAAAA&_nc_gid=JqPMjdfuRF3Oyz76uLqB1g&oh=00_AQTD61vwFMSsMfqJcnxlR3Sxol_s83nH0c2zhuu5ieF5nA&oe=6AFB894F",
-  "seguidores": 2095,
+  "foto": "https://scontent-iad3-2.xx.fbcdn.net/v/t51.82787-15/539797262_17912408235190917_3108839944954499607_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=7d201b&_nc_ohc=0tWntfKAyC0Q7kNvwHabN79&_nc_oc=AdqzuaQH6dsZKgECIHVOL8Y8O_df2ZTlagfKfD5a2OO1lAJ95jiGidpuybV4ojjTVhk&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AL-3X8kEAAAA&_nc_gid=2LAYKrMr2lbUflhj1sdMRQ&oh=00_AQTj81JDwgy-50ySIbrt50O1pR6V42FZCfmNinE5AQlhOw&oe=6AFBF9CF",
+  "seguidores": 2097,
   "total_posts": 520,
   "seguidores_hist": [
    {
@@ -2151,7 +2181,7 @@
    },
    {
     "data": "2026-11-12",
-    "seguidores": 2095
+    "seguidores": 2097
    }
   ],
   "posts": [
@@ -2552,6 +2582,6 @@
     "link": "https://www.instagram.com/p/Dcb5heDm_iA/"
    }
   ],
-  "coletado_em": "2026-11-12T14:02:11.972481+00:00"
+  "coletado_em": "2026-11-12T21:28:14.046263+00:00"
  }
 }
