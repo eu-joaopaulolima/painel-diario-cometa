@@ -2,7 +2,14 @@ name: Atualização diária
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # 11:00 UTC = 07:00 em Cuiabá (o GitHub pode atrasar alguns minutos)
+    # Várias tentativas pela manhã (horário UTC; Cuiabá = UTC-4). A primeira que rodar faz a coleta
+    # do dia e as outras são puladas. Minutos "quebrados" porque o GitHub atrasa muito os horários cheios.
+    - cron: "53 10 * * *"   # 06:53
+    - cron: "17 11 * * *"   # 07:17
+    - cron: "41 11 * * *"   # 07:41
+    - cron: "13 12 * * *"   # 08:13
+    - cron: "47 12 * * *"   # 08:47
+    - cron: "19 14 * * *"   # 10:19 (reserva)
   workflow_dispatch: {}      # botão "Run workflow" para rodar na hora
   push:
     branches: [main]
@@ -26,11 +33,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Ver se a coleta de hoje já foi feita
+        id: hoje
+        run: |
+          HOJE=$(TZ=America/Cuiaba date +%Y-%m-%d)
+          echo "data=$HOJE" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(cat data/coleta_agendada.txt 2>/dev/null)" = "$HOJE" ]; then
+            echo "Coleta de $HOJE já feita; pulando."
+            echo "pular=1" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/setup-python@v5
+        if: steps.hoje.outputs.pular != '1'
         with:
           python-version: "3.12"
 
       - name: Coletar Instagram e Google
+        if: steps.hoje.outputs.pular != '1'
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -39,29 +58,37 @@ jobs:
         run: python scripts/coletar.py
 
       - name: Montar a página
+        if: steps.hoje.outputs.pular != '1'
         run: python scripts/montar_index.py
 
       - name: Guardar o histórico no repositório
+        if: steps.hoje.outputs.pular != '1'
         run: |
           git config user.name "painel-cometa-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ github.event_name }}" = "schedule" ]; then echo "${{ steps.hoje.outputs.data }}" > data/coleta_agendada.txt; fi
           git add data index.html
           if git diff --cached --quiet; then
             echo "Sem mudanças"
           else
             git commit -m "Coleta diária $(TZ=America/Cuiaba date +%Y-%m-%d)"
+            git pull --rebase -q || true
             git push
           fi
 
       - name: Preparar site
+        if: steps.hoje.outputs.pular != '1'
         run: |
           mkdir -p _site
           cp index.html _site/
           cp -r data _site/
 
       - uses: actions/configure-pages@v5
+        if: steps.hoje.outputs.pular != '1'
       - uses: actions/upload-pages-artifact@v3
+        if: steps.hoje.outputs.pular != '1'
         with:
           path: _site
       - id: deploy
+        if: steps.hoje.outputs.pular != '1'
         uses: actions/deploy-pages@v4
