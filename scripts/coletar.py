@@ -220,40 +220,68 @@ APIFY_TOKEN = os.environ.get("APIFY_TOKEN", "").strip()
 APIFY_ATOR = "compass~crawler-google-places"
 
 
+def apify_executar(entrada):
+    """Inicia uma execução do Apify, espera terminar (sem iniciar outra em paralelo) e devolve os itens."""
+    tok = urllib.parse.urlencode({"token": APIFY_TOKEN})
+    run = http_json(f"https://api.apify.com/v2/acts/{APIFY_ATOR}/runs?{tok}&memory=2048&timeout=900",
+                    "POST", entrada, tentativas=1)["data"]
+    rid, ds = run["id"], run["defaultDatasetId"]
+    print(f"   Apify: execução iniciada ({len(entrada.get('startUrls', []))} perfis por ID, "
+          f"{len(entrada.get('searchStringsArray', []))} por busca)")
+    import time
+    status = run.get("status")
+    for _ in range(100):  # até ~16 min
+        if status in ("SUCCEEDED", "FAILED", "ABORTED", "TIMED-OUT"):
+            break
+        time.sleep(10)
+        status = http_json(f"https://api.apify.com/v2/actor-runs/{rid}?{tok}")["data"]["status"]
+    print(f"   Apify: execução terminou com status {status}")
+    if status not in ("SUCCEEDED", "TIMED-OUT", "ABORTED"):
+        raise RuntimeError(f"execução do Apify terminou com status {status}")
+    return http_json(f"https://api.apify.com/v2/datasets/{ds}/items?{tok}&clean=true")
+
+
 def coletar_google_apify(agora, base, cache):
-    """Nota e total de avaliações via Apify (Google Maps Scraper), numa única execução."""
+    """Nota, total e datas das avaliações recentes via Apify, numa única execução para todos os perfis."""
     hoje = agora.astimezone(FUSO).date().isoformat()
+    desde = (agora - timedelta(days=31)).date().isoformat()
+    unidades = CONFIG["unidades"]
+    pid_de = {u["id"]: (u.get("google_place_id") or cache.get(u["id"], {}).get("place_id") or "") for u in unidades}
+    entrada = {"language": "pt-BR", "maxReviews": 150, "reviewsSort": "newest",
+               "reviewsStartDate": desde, "maxImages": 0, "scrapeContacts": False,
+               "skipClosedPlaces": False, "maxCrawledPlacesPerSearch": 1}
+    com_id = [u for u in unidades if pid_de[u["id"]]]
+    sem_id = [u for u in unidades if not pid_de[u["id"]]]
+    if com_id:
+        entrada["startUrls"] = [{"url": f"https://www.google.com/maps/search/?api=1&query=Google&query_place_id={pid_de[u['id']]}"}
+                                for u in com_id]
+    if sem_id:
+        entrada["searchStringsArray"] = [u["google_busca"] for u in sem_id]
+    try:
+        itens = apify_executar(entrada)
+    except Exception as e:
+        msg = str(e).replace(APIFY_TOKEN, "***")[:300]
+        print(f"[erro] Google (Apify): {msg}", file=sys.stderr)
+        for u in unidades:
+            reg = base.get(u["id"], {"historico": []}); reg["erro"] = msg; base[u["id"]] = reg
+        return base, cache, False
+
+    por_pid = {i.get("placeId"): i for i in itens if i.get("placeId")}
+    por_busca = {i.get("searchString"): i for i in itens if i.get("searchString")}
     ok = False
-    for u in CONFIG["unidades"]:
+    for u in unidades:
         reg = base.get(u["id"], {"historico": []})
-        pid = u.get("google_place_id") or cache.get(u["id"], {}).get("place_id")
-        desde = (agora - timedelta(days=31)).date().isoformat()
-        entrada = {"language": "pt-BR", "maxReviews": 150, "reviewsSort": "newest",
-                   "reviewsStartDate": desde, "maxImages": 0,
-                   "scrapeContacts": False, "skipClosedPlaces": False}
-        if pid:
-            entrada["startUrls"] = [{"url": f"https://www.google.com/maps/search/?api=1&query=Google&query_place_id={pid}"}]
-        else:
-            entrada["searchStringsArray"] = [u["google_busca"]]
-            entrada["maxCrawledPlacesPerSearch"] = 1
-        url = (f"https://api.apify.com/v2/acts/{APIFY_ATOR}/run-sync-get-dataset-items?"
-               + urllib.parse.urlencode({"token": APIFY_TOKEN, "timeout": 240}))
-        try:
-            itens = http_json(url, "POST", entrada, tentativas=2)
-            if not itens:
-                raise RuntimeError("nenhum resultado no Google Maps")
-            d = itens[0]
-        except Exception as e:
-            reg["erro"] = str(e).replace(APIFY_TOKEN, "***")[:300]
+        d = por_pid.get(pid_de[u["id"]]) if pid_de[u["id"]] else por_busca.get(u["google_busca"])
+        if not d:
+            reg["erro"] = "perfil não veio na coleta de hoje"
             print(f"[erro] Google {u['id']}: {reg['erro']}", file=sys.stderr)
             base[u["id"]] = reg
             continue
-        novo_pid = d.get("placeId") or pid or ""
+        novo_pid = d.get("placeId") or pid_de[u["id"]]
         if novo_pid and u["id"] not in cache:
             cache[u["id"]] = {"place_id": novo_pid, "consulta": u["google_busca"], "nome": d.get("title", "")}
         hist = [h for h in reg.get("historico", []) if h["data"] != hoje]
         hist.append({"data": hoje, "nota": d.get("totalScore"), "total": d.get("reviewsCount") or 0})
-        # datas das avaliações recentes (guarda e acumula, sem duplicar)
         recentes = {r["id"]: r for r in reg.get("avaliacoes", [])}
         for r in d.get("reviews") or []:
             ts = r.get("publishedAtDate")
@@ -261,9 +289,8 @@ def coletar_google_apify(agora, base, cache):
                 continue
             rid = r.get("reviewId") or f"{ts}-{r.get('name', '')}"
             recentes[rid] = {"id": rid, "ts": ts, "estrelas": r.get("stars")}
-        corte = (agora - timedelta(days=DIAS_GUARDADOS)).isoformat()
-        avals = sorted((r for r in recentes.values() if r["ts"] >= corte[:10]), key=lambda r: r["ts"], reverse=True)
-        print(f"   {len(d.get('reviews') or [])} avaliações recentes lidas para {u['id']}")
+        corte = (agora - timedelta(days=DIAS_GUARDADOS)).isoformat()[:10]
+        avals = sorted((r for r in recentes.values() if r["ts"] >= corte), key=lambda r: r["ts"], reverse=True)
         base[u["id"]] = {
             "avaliacoes": avals,
             "place_id": novo_pid,
@@ -273,7 +300,8 @@ def coletar_google_apify(agora, base, cache):
             "historico": hist[-DIAS_GUARDADOS:],
         }
         ok = True
-        print(f"[ok] Google {u['id']}: {d.get('title')} · nota {d.get('totalScore')} · {d.get('reviewsCount')} avaliações")
+        print(f"[ok] Google {u['id']}: {d.get('title')} · nota {d.get('totalScore')} · "
+              f"{d.get('reviewsCount')} avaliações · {len(d.get('reviews') or [])} recentes lidas")
     return base, cache, ok
 
 
