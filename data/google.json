@@ -46,6 +46,11 @@
     "data": "2026-11-12",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-13",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
@@ -166,6 +171,11 @@
     "data": "2026-11-12",
     "nota": 4.6,
     "total": 307
+   },
+   {
+    "data": "2026-11-13",
+    "nota": 4.6,
+    "total": 307
    }
   ]
  },
@@ -201,11 +211,21 @@
     "data": "2026-11-12",
     "nota": 4.5,
     "total": 594
+   },
+   {
+    "data": "2026-11-13",
+    "nota": 4.5,
+    "total": 594
    }
   ]
  },
  "hyundai-sinop": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0cVZYVXpjRXgxVjBsc2JFUkpka3hRZDFOeVFtYxAB",
+    "ts": "2026-11-13T15:01:48.766Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2pFMGVuTjZjSEZSTWpac1FrWkJVM0JGVEd4ZlgxRRAB",
     "ts": "2026-11-11T15:18:11.193Z",
@@ -271,6 +291,11 @@
     "data": "2026-11-12",
     "nota": 4.6,
     "total": 661
+   },
+   {
+    "data": "2026-11-13",
+    "nota": 4.6,
+    "total": 662
    }
   ]
  },
@@ -295,11 +320,21 @@
     "data": "2026-11-12",
     "nota": 4.4,
     "total": 34
+   },
+   {
+    "data": "2026-11-13",
+    "nota": 4.4,
+    "total": 34
    }
   ]
  },
  "vw-caceres": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25Sck1HdFBiRWRvU2xKT2RWcHVUalZCYkZJd2RIYxAB",
+    "ts": "2026-11-13T12:38:27.177Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT21KNGJFRkpibXR2ZERSbU5uSlZlVE51VTNFd2JXYxAB",
     "ts": "2026-11-12T19:31:37.247Z",
@@ -355,6 +390,11 @@
     "data": "2026-11-12",
     "nota": 4.7,
     "total": 251
+   },
+   {
+    "data": "2026-11-13",
+    "nota": 4.7,
+    "total": 252
    }
   ]
  },
@@ -379,6 +419,11 @@
     "data": "2026-11-12",
     "nota": 5,
     "total": 6
+   },
+   {
+    "data": "2026-11-13",
+    "nota": 5,
+    "total": 6
    }
   ]
  },
@@ -401,6 +446,11 @@
    },
    {
     "data": "2026-11-12",
+    "nota": 4.6,
+    "total": 13
+   },
+   {
+    "data": "2026-11-13",
     "nota": 4.6,
     "total": 13
    }
