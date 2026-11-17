@@ -66,6 +66,11 @@
     "data": "2026-11-16",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-17",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
@@ -206,6 +211,11 @@
     "data": "2026-11-16",
     "nota": 4.6,
     "total": 307
+   },
+   {
+    "data": "2026-11-17",
+    "nota": 4.6,
+    "total": 307
    }
   ]
  },
@@ -261,11 +271,21 @@
     "data": "2026-11-16",
     "nota": 4.5,
     "total": 594
+   },
+   {
+    "data": "2026-11-17",
+    "nota": 4.5,
+    "total": 594
    }
   ]
  },
  "hyundai-sinop": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2twa1gwRm9aSE5TV214Sk0wczJOR2hOV1ZKMFpuYxAB",
+    "ts": "2026-11-17T13:35:28.271Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0cVZYVXpjRXgxVjBsc2JFUkpka3hRZDFOeVFtYxAB",
     "ts": "2026-11-13T15:01:48.766Z",
@@ -356,6 +376,11 @@
     "data": "2026-11-16",
     "nota": 4.6,
     "total": 662
+   },
+   {
+    "data": "2026-11-17",
+    "nota": 4.6,
+    "total": 663
    }
   ]
  },
@@ -398,6 +423,11 @@
    },
    {
     "data": "2026-11-16",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-17",
     "nota": 4.4,
     "total": 34
    }
@@ -495,6 +525,11 @@
     "data": "2026-11-16",
     "nota": 4.7,
     "total": 254
+   },
+   {
+    "data": "2026-11-17",
+    "nota": 4.7,
+    "total": 254
    }
   ]
  },
@@ -539,11 +574,37 @@
     "data": "2026-11-16",
     "nota": 5,
     "total": 6
+   },
+   {
+    "data": "2026-11-17",
+    "nota": 5,
+    "total": 6
    }
   ]
  },
  "clicar-caceres": {
-  "avaliacoes": [],
+  "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pBd2EydDZTbHBYU1RaWlZYVjBaV3RxZDJGcFRWRRAB",
+    "ts": "2026-11-17T17:22:16.106Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21SSGRXZFVYM3BhYzJoSFh6QkVTeTFCVFVkb1ZFRRAB",
+    "ts": "2026-11-16T21:02:45.241Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21GVmRVaElXRmR4Ym5aWlRYaDFXV054Wm10cE9FRRAB",
+    "ts": "2026-11-16T21:00:06.438Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tWNGN5MTFaVXBJU2xoc2EzWkJNMFZzWHpOM1dtYxAB",
+    "ts": "2026-11-16T20:54:20.811Z",
+    "estrelas": 5
+   }
+  ],
   "place_id": "ChIJS_CJJgj_mpMRdNXx10KgDpY",
   "nome_google": "Clicar Veículos Cáceres",
   "endereco": "Av. Gen. Osório, 1150B - Centro, Cáceres - MT, 78200-000, Brasil",
@@ -583,6 +644,11 @@
     "data": "2026-11-16",
     "nota": 4.6,
     "total": 13
+   },
+   {
+    "data": "2026-11-17",
+    "nota": 4.7,
+    "total": 17
    }
   ]
  }
