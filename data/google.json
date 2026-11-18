@@ -71,6 +71,11 @@
     "data": "2026-11-17",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-18",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
@@ -216,6 +221,11 @@
     "data": "2026-11-17",
     "nota": 4.6,
     "total": 307
+   },
+   {
+    "data": "2026-11-18",
+    "nota": 4.6,
+    "total": 307
    }
   ]
  },
@@ -276,11 +286,21 @@
     "data": "2026-11-17",
     "nota": 4.5,
     "total": 594
+   },
+   {
+    "data": "2026-11-18",
+    "nota": 4.5,
+    "total": 594
    }
   ]
  },
  "hyundai-sinop": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21ObmJVSnZkakptYW1OWVpHNVRaSHBIU2xKblMzYxAB",
+    "ts": "2026-11-18T15:00:46.409Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2twa1gwRm9aSE5TV214Sk0wczJOR2hOV1ZKMFpuYxAB",
     "ts": "2026-11-17T13:35:28.271Z",
@@ -381,6 +401,11 @@
     "data": "2026-11-17",
     "nota": 4.6,
     "total": 663
+   },
+   {
+    "data": "2026-11-18",
+    "nota": 4.6,
+    "total": 664
    }
   ]
  },
@@ -428,6 +453,11 @@
    },
    {
     "data": "2026-11-17",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-18",
     "nota": 4.4,
     "total": 34
    }
@@ -530,6 +560,11 @@
     "data": "2026-11-17",
     "nota": 4.7,
     "total": 254
+   },
+   {
+    "data": "2026-11-18",
+    "nota": 4.7,
+    "total": 254
    }
   ]
  },
@@ -579,11 +614,31 @@
     "data": "2026-11-17",
     "nota": 5,
     "total": 6
+   },
+   {
+    "data": "2026-11-18",
+    "nota": 5,
+    "total": 6
    }
   ]
  },
  "clicar-caceres": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwQ0xXTXdaVUoyZEdOcFdFcEdTSFZJYzNGaGRHYxAB",
+    "ts": "2026-11-18T12:08:51.254Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21admFsSmpOVk4wY1MxaFltWm1Ta2hZVVdWR1YwRRAB",
+    "ts": "2026-11-18T12:08:02.739Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xsMlVYbDRZVTh4U1ZndGIxRjZUa0ZDYVRBdGNFRRAB",
+    "ts": "2026-11-18T12:07:11.513Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2pBd2EydDZTbHBYU1RaWlZYVjBaV3RxZDJGcFRWRRAB",
     "ts": "2026-11-17T17:22:16.106Z",
@@ -649,6 +704,11 @@
     "data": "2026-11-17",
     "nota": 4.7,
     "total": 17
+   },
+   {
+    "data": "2026-11-18",
+    "nota": 4.8,
+    "total": 20
    }
   ]
  }
