@@ -76,11 +76,21 @@
     "data": "2026-11-18",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-19",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
  "hyundai-tangara": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25rNU5teElhM2ROTkZNMFIxWlRiVkZPTTNwZk0yYxAB",
+    "ts": "2026-11-18T16:56:10.877Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT25kUlVtMUZUWGczVTJOTVVETkphRGxhVFd0Sk1tYxAB",
     "ts": "2026-11-10T20:54:26.431Z",
@@ -226,6 +236,11 @@
     "data": "2026-11-18",
     "nota": 4.6,
     "total": 307
+   },
+   {
+    "data": "2026-11-19",
+    "nota": 4.6,
+    "total": 307
    }
   ]
  },
@@ -291,11 +306,26 @@
     "data": "2026-11-18",
     "nota": 4.5,
     "total": 594
+   },
+   {
+    "data": "2026-11-19",
+    "nota": 4.5,
+    "total": 594
    }
   ]
  },
  "hyundai-sinop": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoaE4yOXlabWxxY0c0eFNIVlJjVjh5UjJsUGNXYxAB",
+    "ts": "2026-11-19T15:16:51.008Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT205NWVVOVpOazF6UzJaa2IwTjJhVU16YjJ0TmFXYxAB",
+    "ts": "2026-11-18T19:37:51.922Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT21ObmJVSnZkakptYW1OWVpHNVRaSHBIU2xKblMzYxAB",
     "ts": "2026-11-18T15:00:46.409Z",
@@ -406,6 +436,11 @@
     "data": "2026-11-18",
     "nota": 4.6,
     "total": 664
+   },
+   {
+    "data": "2026-11-19",
+    "nota": 4.6,
+    "total": 666
    }
   ]
  },
@@ -458,6 +493,11 @@
    },
    {
     "data": "2026-11-18",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-19",
     "nota": 4.4,
     "total": 34
    }
@@ -565,6 +605,11 @@
     "data": "2026-11-18",
     "nota": 4.7,
     "total": 254
+   },
+   {
+    "data": "2026-11-19",
+    "nota": 4.7,
+    "total": 254
    }
   ]
  },
@@ -617,6 +662,11 @@
    },
    {
     "data": "2026-11-18",
+    "nota": 5,
+    "total": 6
+   },
+   {
+    "data": "2026-11-19",
     "nota": 5,
     "total": 6
    }
@@ -707,6 +757,11 @@
    },
    {
     "data": "2026-11-18",
+    "nota": 4.8,
+    "total": 20
+   },
+   {
+    "data": "2026-11-19",
     "nota": 4.8,
     "total": 20
    }
