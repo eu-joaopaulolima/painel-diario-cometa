@@ -86,6 +86,11 @@
     "data": "2026-11-20",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-21",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
@@ -251,6 +256,11 @@
     "data": "2026-11-20",
     "nota": 4.6,
     "total": 307
+   },
+   {
+    "data": "2026-11-21",
+    "nota": 4.6,
+    "total": 307
    }
   ]
  },
@@ -326,11 +336,21 @@
     "data": "2026-11-20",
     "nota": 4.5,
     "total": 594
+   },
+   {
+    "data": "2026-11-21",
+    "nota": 4.5,
+    "total": 594
    }
   ]
  },
  "hyundai-sinop": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25sUGVIcGZla1V3V1ZWZmVtSnpjMWhHY0RSNlJrRRAB",
+    "ts": "2026-11-21T12:38:06.763Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoaE4yOXlabWxxY0c0eFNIVlJjVjh5UjJsUGNXYxAB",
     "ts": "2026-11-19T15:16:51.008Z",
@@ -461,6 +481,11 @@
     "data": "2026-11-20",
     "nota": 4.6,
     "total": 666
+   },
+   {
+    "data": "2026-11-21",
+    "nota": 4.6,
+    "total": 667
    }
   ]
  },
@@ -523,6 +548,11 @@
    },
    {
     "data": "2026-11-20",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-21",
     "nota": 4.4,
     "total": 34
    }
@@ -640,6 +670,11 @@
     "data": "2026-11-20",
     "nota": 4.7,
     "total": 254
+   },
+   {
+    "data": "2026-11-21",
+    "nota": 4.7,
+    "total": 254
    }
   ]
  },
@@ -704,11 +739,21 @@
     "data": "2026-11-20",
     "nota": 5,
     "total": 6
+   },
+   {
+    "data": "2026-11-21",
+    "nota": 5,
+    "total": 6
    }
   ]
  },
  "clicar-caceres": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2s1YWMyWXpiM1psWVRWcU1WRlhVR2N0VUd0eVEzYxAB",
+    "ts": "2026-11-21T13:44:21.343Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2xwQ0xXTXdaVUoyZEdOcFdFcEdTSFZJYzNGaGRHYxAB",
     "ts": "2026-11-18T12:08:51.254Z",
@@ -804,6 +849,11 @@
     "data": "2026-11-20",
     "nota": 4.8,
     "total": 20
+   },
+   {
+    "data": "2026-11-21",
+    "nota": 4.8,
+    "total": 21
    }
   ]
  }
