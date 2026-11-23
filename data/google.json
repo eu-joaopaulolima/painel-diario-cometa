@@ -96,6 +96,11 @@
     "data": "2026-11-22",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-23",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
@@ -271,11 +276,21 @@
     "data": "2026-11-22",
     "nota": 4.6,
     "total": 307
+   },
+   {
+    "data": "2026-11-23",
+    "nota": 4.6,
+    "total": 307
    }
   ]
  },
  "hyundai-rondonopolis": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pNemQxWTBhMlJXUmtwUGNqTlRYemhyVURsT1RYYxAB",
+    "ts": "2026-11-23T20:46:50.041Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2twT2MyVTJOa3BOU1RWSk5USmpURGhEZGpobmJuYxAB",
     "ts": "2026-11-11T13:00:26.885Z",
@@ -354,6 +369,11 @@
    },
    {
     "data": "2026-11-22",
+    "nota": 4.5,
+    "total": 594
+   },
+   {
+    "data": "2026-11-23",
     "nota": 4.5,
     "total": 594
    }
@@ -506,6 +526,11 @@
     "data": "2026-11-22",
     "nota": 4.6,
     "total": 667
+   },
+   {
+    "data": "2026-11-23",
+    "nota": 4.6,
+    "total": 667
    }
   ]
  },
@@ -578,6 +603,11 @@
    },
    {
     "data": "2026-11-22",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-23",
     "nota": 4.4,
     "total": 34
    }
@@ -705,6 +735,11 @@
     "data": "2026-11-22",
     "nota": 4.7,
     "total": 254
+   },
+   {
+    "data": "2026-11-23",
+    "nota": 4.7,
+    "total": 254
    }
   ]
  },
@@ -777,6 +812,11 @@
    },
    {
     "data": "2026-11-22",
+    "nota": 5,
+    "total": 6
+   },
+   {
+    "data": "2026-11-23",
     "nota": 5,
     "total": 6
    }
@@ -892,6 +932,11 @@
    },
    {
     "data": "2026-11-22",
+    "nota": 4.8,
+    "total": 21
+   },
+   {
+    "data": "2026-11-23",
     "nota": 4.8,
     "total": 21
    }
