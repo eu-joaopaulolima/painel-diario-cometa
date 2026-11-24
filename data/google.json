@@ -101,11 +101,41 @@
     "data": "2026-11-23",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-24",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
  "hyundai-tangara": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25RNGQwVk9RVWRvYW5scGVXbHdhbVJPUkhaMFVYYxAB",
+    "ts": "2026-11-24T13:16:47.780Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tsMldXcDJaVGh2VkdkT1NFWlNUa1ZpUlVvMWJuYxAB",
+    "ts": "2026-11-24T12:59:58.096Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t4aE1YbFhhMXA1Y2pOMVMzaEpSbGcxZERsb2JrRRAB",
+    "ts": "2026-11-24T12:57:47.784Z",
+    "estrelas": 5
+   },
+   {
+    "id": "ChdDSUhNMG9nS0VJQ0FnSUNwdC1HMGtBRRAB",
+    "ts": "2026-11-24T12:56:24.286Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pKR1dWbEVkbGcyYVZGMWVWRnVSRzlETWpkVVdIYxAB",
+    "ts": "2026-11-24T12:50:39.650Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT25rNU5teElhM2ROTkZNMFIxWlRiVkZPTTNwZk0yYxAB",
     "ts": "2026-11-18T16:56:10.877Z",
@@ -281,6 +311,11 @@
     "data": "2026-11-23",
     "nota": 4.6,
     "total": 307
+   },
+   {
+    "data": "2026-11-24",
+    "nota": 4.6,
+    "total": 311
    }
   ]
  },
@@ -376,11 +411,21 @@
     "data": "2026-11-23",
     "nota": 4.5,
     "total": 594
+   },
+   {
+    "data": "2026-11-24",
+    "nota": 4.5,
+    "total": 594
    }
   ]
  },
  "hyundai-sinop": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGTE1GbENWazEwWDJ0Uk1rMVFPWFZCZWtoaGNWRRAB",
+    "ts": "2026-11-24T14:52:32.113Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT25sUGVIcGZla1V3V1ZWZmVtSnpjMWhHY0RSNlJrRRAB",
     "ts": "2026-11-21T12:38:06.763Z",
@@ -531,6 +576,11 @@
     "data": "2026-11-23",
     "nota": 4.6,
     "total": 667
+   },
+   {
+    "data": "2026-11-24",
+    "nota": 4.6,
+    "total": 668
    }
   ]
  },
@@ -608,6 +658,11 @@
    },
    {
     "data": "2026-11-23",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-24",
     "nota": 4.4,
     "total": 34
    }
@@ -740,6 +795,11 @@
     "data": "2026-11-23",
     "nota": 4.7,
     "total": 254
+   },
+   {
+    "data": "2026-11-24",
+    "nota": 4.7,
+    "total": 254
    }
   ]
  },
@@ -817,6 +877,11 @@
    },
    {
     "data": "2026-11-23",
+    "nota": 5,
+    "total": 6
+   },
+   {
+    "data": "2026-11-24",
     "nota": 5,
     "total": 6
    }
@@ -937,6 +1002,11 @@
    },
    {
     "data": "2026-11-23",
+    "nota": 4.8,
+    "total": 21
+   },
+   {
+    "data": "2026-11-24",
     "nota": 4.8,
     "total": 21
    }
