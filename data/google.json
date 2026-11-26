@@ -111,6 +111,11 @@
     "data": "2026-11-25",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-26",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
@@ -326,6 +331,11 @@
     "data": "2026-11-25",
     "nota": 4.6,
     "total": 311
+   },
+   {
+    "data": "2026-11-26",
+    "nota": 4.6,
+    "total": 311
    }
   ]
  },
@@ -429,6 +439,11 @@
    },
    {
     "data": "2026-11-25",
+    "nota": 4.5,
+    "total": 594
+   },
+   {
+    "data": "2026-11-26",
     "nota": 4.5,
     "total": 594
    }
@@ -601,6 +616,11 @@
     "data": "2026-11-25",
     "nota": 4.6,
     "total": 668
+   },
+   {
+    "data": "2026-11-26",
+    "nota": 4.6,
+    "total": 668
    }
   ]
  },
@@ -690,11 +710,26 @@
     "data": "2026-11-25",
     "nota": 4.4,
     "total": 34
+   },
+   {
+    "data": "2026-11-26",
+    "nota": 4.4,
+    "total": 34
    }
   ]
  },
  "vw-caceres": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pkVFVGazBWbFZJZUZob2FYSjJTa2xQUkdoMWMyYxAB",
+    "ts": "2026-11-25T22:03:17.087Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT210TFFtcE1WbFV4WVVOeVVVeEdSVVp0UXpCeWVrRRAB",
+    "ts": "2026-11-25T22:01:57.039Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCblFubHNibXhNT1hWYWNuQmFiREp6VTAxV2NuYxAB",
     "ts": "2026-11-14T12:10:12.975Z",
@@ -830,6 +865,11 @@
     "data": "2026-11-25",
     "nota": 4.7,
     "total": 254
+   },
+   {
+    "data": "2026-11-26",
+    "nota": 4.7,
+    "total": 255
    }
   ]
  },
@@ -919,11 +959,41 @@
     "data": "2026-11-25",
     "nota": 5,
     "total": 6
+   },
+   {
+    "data": "2026-11-26",
+    "nota": 5,
+    "total": 6
    }
   ]
  },
  "clicar-caceres": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSYWNEbEhNRXBOYlRaRVdtSmlOVWxVUmxSclgwRRAB",
+    "ts": "2026-11-25T22:02:07.273Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t4amIxOU9OV1Y2T0dwQmRubDJaMGREV2pFdExWRRAB",
+    "ts": "2026-11-25T22:00:29.848Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tWVE5rTmFiR1ZNWkd4MVJrdHViMDR3VEZobmVWRRAB",
+    "ts": "2026-11-25T21:59:31.641Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21KTmRqWXhOVkk1U2xZM2NuSnJWQzEwTFZSRVNrRRAB",
+    "ts": "2026-11-25T21:59:29.366Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT25SRFdUZHRPRmQ2VDFvMWFXNHdhRWhWVTNSQlNWRRAB",
+    "ts": "2026-11-25T21:58:54.872Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT21aUE5UZzFUM0F3WDNGTVltVTJNVzFDYjI1bVlsRRAB",
     "ts": "2026-11-25T11:13:43.154Z",
@@ -1084,6 +1154,11 @@
     "data": "2026-11-25",
     "nota": 4.8,
     "total": 28
+   },
+   {
+    "data": "2026-11-26",
+    "nota": 4.8,
+    "total": 33
    }
   ]
  }
