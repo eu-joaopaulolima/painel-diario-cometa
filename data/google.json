@@ -116,6 +116,11 @@
     "data": "2026-11-26",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-27",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
@@ -336,6 +341,11 @@
     "data": "2026-11-26",
     "nota": 4.6,
     "total": 311
+   },
+   {
+    "data": "2026-11-27",
+    "nota": 4.6,
+    "total": 311
    }
   ]
  },
@@ -444,6 +454,11 @@
    },
    {
     "data": "2026-11-26",
+    "nota": 4.5,
+    "total": 594
+   },
+   {
+    "data": "2026-11-27",
     "nota": 4.5,
     "total": 594
    }
@@ -621,6 +636,11 @@
     "data": "2026-11-26",
     "nota": 4.6,
     "total": 668
+   },
+   {
+    "data": "2026-11-27",
+    "nota": 4.6,
+    "total": 668
    }
   ]
  },
@@ -715,11 +735,26 @@
     "data": "2026-11-26",
     "nota": 4.4,
     "total": 34
+   },
+   {
+    "data": "2026-11-27",
+    "nota": 4.4,
+    "total": 34
    }
   ]
  },
  "vw-caceres": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSWmExbHJjRlZsUVVWRU9FOXhRWE5mY0d4M1dIYxAB",
+    "ts": "2026-11-26T15:30:06.225Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t4b1ZYZ3dlVUl3ZW10TVV6WkJUekZsWHpOT01rRRAB",
+    "ts": "2026-11-26T14:13:09.040Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2pkVFVGazBWbFZJZUZob2FYSjJTa2xQUkdoMWMyYxAB",
     "ts": "2026-11-25T22:03:17.087Z",
@@ -870,6 +905,11 @@
     "data": "2026-11-26",
     "nota": 4.7,
     "total": 255
+   },
+   {
+    "data": "2026-11-27",
+    "nota": 4.7,
+    "total": 257
    }
   ]
  },
@@ -962,6 +1002,11 @@
    },
    {
     "data": "2026-11-26",
+    "nota": 5,
+    "total": 6
+   },
+   {
+    "data": "2026-11-27",
     "nota": 5,
     "total": 6
    }
@@ -1157,6 +1202,11 @@
    },
    {
     "data": "2026-11-26",
+    "nota": 4.8,
+    "total": 33
+   },
+   {
+    "data": "2026-11-27",
     "nota": 4.8,
     "total": 33
    }
