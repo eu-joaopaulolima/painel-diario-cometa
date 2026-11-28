@@ -121,11 +121,26 @@
     "data": "2026-11-27",
     "nota": 4.7,
     "total": 109
+   },
+   {
+    "data": "2026-11-28",
+    "nota": 4.7,
+    "total": 109
    }
   ]
  },
  "hyundai-tangara": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pndFdtRjZjRXM0Y1ZaNFNXNWxlRVZxUzBGdFNGRRAB",
+    "ts": "2026-11-27T13:53:12.346Z",
+    "estrelas": 5
+   },
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT21KRWNtRkJlbmhDUldadFkzRnhOamRtUTJwVVdtYxAB",
+    "ts": "2026-11-27T13:45:16.334Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT25RNGQwVk9RVWRvYW5scGVXbHdhbVJPUkhaMFVYYxAB",
     "ts": "2026-11-24T13:16:47.780Z",
@@ -346,6 +361,11 @@
     "data": "2026-11-27",
     "nota": 4.6,
     "total": 311
+   },
+   {
+    "data": "2026-11-28",
+    "nota": 4.6,
+    "total": 313
    }
   ]
  },
@@ -459,6 +479,11 @@
    },
    {
     "data": "2026-11-27",
+    "nota": 4.5,
+    "total": 594
+   },
+   {
+    "data": "2026-11-28",
     "nota": 4.5,
     "total": 594
    }
@@ -641,6 +666,11 @@
     "data": "2026-11-27",
     "nota": 4.6,
     "total": 668
+   },
+   {
+    "data": "2026-11-28",
+    "nota": 4.6,
+    "total": 668
    }
   ]
  },
@@ -738,6 +768,11 @@
    },
    {
     "data": "2026-11-27",
+    "nota": 4.4,
+    "total": 34
+   },
+   {
+    "data": "2026-11-28",
     "nota": 4.4,
     "total": 34
    }
@@ -910,6 +945,11 @@
     "data": "2026-11-27",
     "nota": 4.7,
     "total": 257
+   },
+   {
+    "data": "2026-11-28",
+    "nota": 4.7,
+    "total": 256
    }
   ]
  },
@@ -1009,11 +1049,21 @@
     "data": "2026-11-27",
     "nota": 5,
     "total": 6
+   },
+   {
+    "data": "2026-11-28",
+    "nota": 5,
+    "total": 6
    }
   ]
  },
  "clicar-caceres": {
   "avaliacoes": [
+   {
+    "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxaFJtWTRWRXBSZURWbWNURXRhRVJHY2psU1JFRRAB",
+    "ts": "2026-11-27T21:48:51.517Z",
+    "estrelas": 5
+   },
    {
     "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSYWNEbEhNRXBOYlRaRVdtSmlOVWxVUmxSclgwRRAB",
     "ts": "2026-11-25T22:02:07.273Z",
@@ -1209,6 +1259,11 @@
     "data": "2026-11-27",
     "nota": 4.8,
     "total": 33
+   },
+   {
+    "data": "2026-11-28",
+    "nota": 4.9,
+    "total": 34
    }
   ]
  }
